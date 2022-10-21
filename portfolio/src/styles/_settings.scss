@@ -19,7 +19,7 @@
 $font-h1: "barlow-bold",
     sans-serif;
 $font-regular: "barlow-regular";
-$color-1: green;
+$color-1: #02989d;
 $color-2: orange;
 $white: rgb(243, 243, 243);
 
@@ -38,4 +38,9 @@ body {
 
 li {
     list-style-type: none;
+}
+
+.page-split {
+    display: flex;
+    flex-direction: row;
 }

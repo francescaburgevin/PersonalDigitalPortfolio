@@ -4,9 +4,14 @@ import Navigation from "../components/Navigation";
 const Home = () => {
 
   return (
-    <div>
-      <Navigation />
-      <h1>Home page</h1>
+    <div className="page-split">
+      <div>
+        <Navigation />
+      </div>
+
+      <div>
+        <h1>Home page</h1>
+      </div>
     </div>
   );
 };

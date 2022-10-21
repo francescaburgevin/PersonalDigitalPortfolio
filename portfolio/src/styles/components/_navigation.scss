@@ -1,4 +1,7 @@
 .navigation {
+    background-color: $color-1;
+
+
     ul {
         display: flex;
         flex-direction: column;
@@ -8,12 +11,12 @@
             padding: 5px;
 
             li {
-                color: $color-2;
+                color: $white;
                 transition: 0.2s;
                 cursor: pointer;
 
                 &:hover {
-                    color: $color-1;
+                    color: $color-2;
                 }
             }
         }
