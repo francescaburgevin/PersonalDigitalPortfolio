@@ -1,16 +1,18 @@
 import React from "react";
+import Figure from "../components/Figure";
 import Navigation from "../components/Navigation";
 
 const Home = () => {
 
   return (
     <div className="page-split">
-      <div>
+      <div className="lite-bg-prime-color left-side">
+        <Figure />
         <Navigation />
       </div>
 
-      <div>
-        <h1>Home page</h1>
+      <div className="right-side">
+        <h1>ACCUEIL</h1>
       </div>
     </div>
   );

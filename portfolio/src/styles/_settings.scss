@@ -19,6 +19,7 @@
 $font-h1: "barlow-bold",
     sans-serif;
 $font-regular: "barlow-regular";
+
 $color-1: #02989d;
 $color-2: orange;
 $white: rgb(243, 243, 243);
@@ -28,6 +29,7 @@ $white: rgb(243, 243, 243);
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: $font-regular;
 }
 
 body {
@@ -43,4 +45,36 @@ li {
 .page-split {
     display: flex;
     flex-direction: row;
+}
+
+.avatar{
+    width:200px;
+}
+.avatar img{
+    width:100%;
+    border-radius: 50%;
+}
+
+.lite-bg-prime-color{
+    background-color: $color-1;
+    color: $white;
+}
+
+.left-side{
+    min-height: 100vh;
+    width: 500px;
+    padding: 30px;
+    text-align: right;
+    position:fixed;
+}
+
+.right-side{
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cv img{
+    width: 70%;
+    margin:30px;
 }

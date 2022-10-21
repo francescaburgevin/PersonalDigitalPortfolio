@@ -2,8 +2,8 @@ import React from 'react';
 
 const Avatar = () => {
     return (
-        <div>
-            <img src="" alt='avatar' />
+        <div className='avatar'>
+            <img src="/images/portrait.png" alt='avatar' />
         </div>
     );
 };
