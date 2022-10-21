@@ -1,0 +1,41 @@
+@font-face {
+    // name
+    font-family: "liana";
+    src: url(../assets/fonts/Liana.ttf);
+
+    // h2 titles
+    font-family: "barlow-bold";
+    src: url(../assets/fonts/Barlow-Bold.ttf);
+
+    // h3 titles
+    font-family: "barlow-medium";
+    src: url(../assets/fonts/Barlow-Medium.ttf);
+
+    // text
+    font-family: "barlow-regular";
+    src: url(../assets/fonts/Barlow-Regular.ttf);
+}
+
+$font-h1: "barlow-bold",
+    sans-serif;
+$font-regular: "barlow-regular";
+$color-1: green;
+$color-2: orange;
+$white: rgb(243, 243, 243);
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: $white;
+    color: $color-1;
+    font-family: $font-regular;
+}
+
+li {
+    list-style-type: none;
+}
