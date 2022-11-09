@@ -1,14 +1,10 @@
 import React from 'react';
-import Figure from '../components/Figure';
-import Navigation from '../components/Navigation';
+import Sidebar from "../containers/Sidebar";
 
 const Projects = () => {
     return (
         <div className="page-split">
-        <div className="lite-bg-prime-color left-side">
-          <Figure />
-          <Navigation />
-        </div>
+          <Sidebar />
   
         <div className="right-side">
           <h1>PROJETS</h1>

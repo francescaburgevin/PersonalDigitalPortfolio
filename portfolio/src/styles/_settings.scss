@@ -21,7 +21,7 @@ $font-h1: "barlow-bold",
 $font-regular: "barlow-regular";
 
 $color-1: #02989d;
-$color-2: orange;
+$color-2: #002d2e;
 $white: rgb(243, 243, 243);
 
 
@@ -36,6 +36,10 @@ body {
     background: $white;
     color: $color-1;
     font-family: $font-regular;
+}
+
+h1 {
+    display: none;
 }
 
 li {
@@ -62,14 +66,18 @@ li {
 
 .left-side{
     min-height: 100vh;
-    width: 500px;
+    width: 400px;
     padding: 30px;
     text-align: right;
-    position:fixed;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
 .right-side{
-    margin-left: 500px;
+    margin: 60px;
     display: flex;
     flex-direction: column;
 }

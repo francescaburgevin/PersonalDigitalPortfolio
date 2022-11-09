@@ -1,0 +1,19 @@
+.introduction{
+    display: flex;
+    height: 300px;
+    justify-content: space-evenly;
+    
+    .text-field {
+        width: 50%;
+        padding:15px;
+
+        p {
+            margin-bottom: 15px;
+        }
+    }
+
+    .photo {
+        display: inline-flex;
+
+    }
+}
