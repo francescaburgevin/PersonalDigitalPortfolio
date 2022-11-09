@@ -1,4 +1,5 @@
 
+
 const skills = {
     data: [
         {
@@ -15,7 +16,7 @@ const skills = {
         },
         {
         skillName: "JavaScript",
-        skillLogo: "simple-icons:javascript",
+        skillLogo: "https://www.kindpng.com/picc/m/67-678384_transparent-javascript-icon-png-png-download.png",
         },
         {
         skillName: "PHP",
@@ -23,19 +24,19 @@ const skills = {
         },
         {
         skillName: "MySQL",
-        skillLogo: "simple-icons:react",
+        skillLogo: "https://www.mysql.com/common/logos/includes-mysql-167x86.png",
         },
         {
         skillName: "ReactJS",
-        skillLogo: "simple-icons:react",
-        },
-        {
-        skillName: "NodeJS",
-        skillLogo: "simple-icons:node-dot-js",
+        skillLogo: "https://camo.githubusercontent.com/48d099290b4cb2d7937bcd96e8497cf1845b54a810a6432c70cf944b60b40c77/68747470733a2f2f7261776769742e636f6d2f676f72616e67616a69632f72656163742d69636f6e732f6d61737465722f72656163742d69636f6e732e737667",
         },
         {
         skillName: "phpMyAdmin",
         skillLogo: "https://www.vectorlogo.zone/logos/phpmyadmin/phpmyadmin-ar21.svg",
+        },
+        {
+        skillName: "GitHub",
+        skillLogo: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
         }
     ]
 };

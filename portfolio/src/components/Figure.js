@@ -9,9 +9,10 @@ const Figure = () => {
             <div>
                 <Avatar />
                 <h2>Francesca Burgevin</h2>
-                <h3>Développeuse Web Full Stack</h3>
+                <h3>Développeuse Web Full Stack Junior</h3>
+                <h3>Français - English - Italiano</h3>
             </div>
-            <div>
+            <div className="vertical-line align-end">
                 <FontAwesomeIcon icon={faLinkedin} />
                 <FontAwesomeIcon icon={faGithub} />
             </div>
