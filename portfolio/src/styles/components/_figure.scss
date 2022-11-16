@@ -1,18 +1,30 @@
-.network-icons{
-    a{
-        text-decoration: none;
-        color:white;
-        transition: 0.2s;
-        cursor: pointer;
+section{
 
-        &:hover {
-            color: $color-2;
+        .title{
+            display:flex;
+            flex-direction: column;
+            align-items: flex-end;
+            row-gap: 5px;
+            margin-bottom: 10px;
         }
-        
-        svg{
-            margin-top:10px;
-            width:30px;
-            height:30px;
+    
+        .network-icons{
+            a{
+                text-decoration: none;
+                color:white;
+                transition: 0.2s;
+                cursor: pointer;
+
+                &:hover {
+                    color: $color-2;
+                }
+                
+                svg{
+                    margin-top:10px;
+                    width:30px;
+                    height:30px;
+                }
+            }
         }
-    }
+     
 }

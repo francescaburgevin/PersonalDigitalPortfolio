@@ -3,18 +3,19 @@ import { skills } from "../personal";
 
 const Skills = () => {
     return (
-        <div className='skills'>
+        <section className='skills'>
+            <h2>LANGAGES & FRAMEWORKS</h2>
+            <div className='skills-list'>
             {skills.data.map((skill)=>{
                 return(
-                <div className='column align-center'>
-                    
-                        <h3>{skill.skillName}</h3>
+                    <div className='column'>
+                        <h3 style={{display:"none"}}>{skill.skillName}</h3>
                         <img src={skill.skillLogo} alt={skill.skillName} />
-                   
-                </div>
+                    </div>
                 )
             })}
-        </div>
+            </div>
+        </section>
     )};
 
 export default Skills;

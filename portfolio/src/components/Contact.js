@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div>
+        <section>
             <div className="contact">
                 <ul>
                     <li>Bordeaux, France</li>
@@ -10,7 +10,7 @@ const Contact = () => {
                     <li><a href="mailto:francesca.burgevin@gmail.com">Adresse mail</a></li>
                 </ul>
             </div>
-        </div>
+        </section>
     );
 };
 

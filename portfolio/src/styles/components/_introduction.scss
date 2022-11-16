@@ -1,20 +1,36 @@
 .introduction{
     display: flex;
-    
     justify-content: space-evenly;
-    
+    max-width: 80%;
+    margin-bottom: 5%;
+
     .text-field {
         height: max-content;
         padding:15px;
 
+        h2{
+            color: $color-2;
+            margin-bottom: 30px;
+        }
+
+        h3{
+            margin-bottom:15px;
+            color: white;
+            padding: 10px;
+            background: rgb(0,45,46);
+            background: linear-gradient(90deg, rgba(0,45,46,1) 0%, rgba(2,152,157,0.9514399509803921) 58%, rgba(243,243,243,1) 94%);
+        }
+
         p {
             margin-bottom: 15px;
+
+            span{
+                font-size: larger;
+            }
         }
     }
 
     .photo {
-        
-        
 
         img{
             width:300px;

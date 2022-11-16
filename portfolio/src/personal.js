@@ -1,3 +1,6 @@
+import logoAngular from "./icons/logo_angular.png";
+import logoMySql from "./icons/logo_mysql.png";
+import logoSymfony from "./icons/logo_symfony.png";
 
 
 const skills = {
@@ -24,15 +27,23 @@ const skills = {
         },
         {
         skillName: "MySQL",
-        skillLogo: "https://www.mysql.com/common/logos/includes-mysql-167x86.png",
+        skillLogo: logoMySql,
         },
         {
         skillName: "ReactJS",
         skillLogo: "https://camo.githubusercontent.com/48d099290b4cb2d7937bcd96e8497cf1845b54a810a6432c70cf944b60b40c77/68747470733a2f2f7261776769742e636f6d2f676f72616e67616a69632f72656163742d69636f6e732f6d61737465722f72656163742d69636f6e732e737667",
         },
         {
-        skillName: "phpMyAdmin",
-        skillLogo: "https://www.vectorlogo.zone/logos/phpmyadmin/phpmyadmin-ar21.svg",
+        skillName: "Node.JS",
+        skillLogo: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
+        },
+        {
+        skillName: "Angular",
+        skillLogo: logoAngular,
+        },
+        {
+        skillName: "Symfony",
+        skillLogo: logoSymfony,
         },
         {
         skillName: "GitHub",

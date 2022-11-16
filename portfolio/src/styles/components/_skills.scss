@@ -1,10 +1,17 @@
 .skills {
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns:  repeat(5, 250px); 
-    grid-template-rows:  repeat(2, 150px); 
-
-    img {
-        width: 80px;
+    
+    h2{
+        color: $color-2;
+        margin-bottom: 30px;
     }
+
+    .skills-list{
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns:  repeat(5, 100px); 
+        grid-template-rows:  repeat(2, 1fr); 
+    
+        
+    }
+    
 }

@@ -6,11 +6,12 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 const Figure = () => {
     return (
         <section>
-            <div>
+            <div className='title'>
                 <Avatar />
                 <h2>Francesca Burgevin</h2>
+                <h3>Chef de projet Digital</h3>
                 <h3>Développeuse Web Full Stack Junior</h3>
-                <h3>Français - English - Italiano</h3>
+                <h4>Français - English - Italiano</h4>
             </div>
             <div className="network-icons vertical-line align-end">
                 <a href="https://www.linkedin.com/in/francescanadel/?locale=fr_FR">
