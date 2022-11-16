@@ -1,4 +1,5 @@
 import React from 'react';
+import beachSmile from '../assets/images/beachsmile.jpg';
 
 const Introduction = () => {
     return (
@@ -9,7 +10,7 @@ const Introduction = () => {
                 <p>Mon travail idéal serait une équipe constituée de collègues qui valorisent la diversité des pensées et des talents, et qui partageant mon niveau d'exigence et d'ambition.</p>
             </div>
             <div className='photo'>
-                <img src="/images/portrait.png" alt='avatar' />
+                <img src={beachSmile} alt='beachsmile' />
             </div>
         </div>
     );

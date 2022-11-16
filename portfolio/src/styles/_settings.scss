@@ -87,6 +87,7 @@ li {
     width: 400px;
     padding: 30px;
     text-align: right;
+    position:fixed;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -95,12 +96,35 @@ li {
 
 .right-side{
     margin: 60px;
+    margin-left: 500px;
+    width:70%;
     display: flex;
     flex-direction: column;
-    row-gap: 90px;
 }
 
-.cv img{
-    width: 70%;
-    margin:30px;
+.cv-section{
+    display:flex;
+
+    .cv{
+        img{
+            width: 100%;
+            min-width: 600px;
+        }
+    }
+
+    .cv-options{
+        margin:0;
+        text-align: center;
+    
+        a{
+            text-decoration: none;
+        
+            img{
+                width: 40px;
+                height: 40px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    
 }

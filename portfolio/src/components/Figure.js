@@ -12,10 +12,15 @@ const Figure = () => {
                 <h3>Développeuse Web Full Stack Junior</h3>
                 <h3>Français - English - Italiano</h3>
             </div>
-            <div className="vertical-line align-end">
-                <FontAwesomeIcon icon={faLinkedin} />
-                <FontAwesomeIcon icon={faGithub} />
+            <div className="network-icons vertical-line align-end">
+                <a href="https://www.linkedin.com/in/francescanadel/?locale=fr_FR">
+                    <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+                <a href="https://github.com/francescaburgevin?tab=repositories">
+                    <FontAwesomeIcon icon={faGithub} />
+                </a>
             </div>
+
         </section>
     );
 };

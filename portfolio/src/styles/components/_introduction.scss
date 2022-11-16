@@ -1,10 +1,10 @@
 .introduction{
     display: flex;
-    height: 300px;
+    
     justify-content: space-evenly;
     
     .text-field {
-        width: 50%;
+        height: max-content;
         padding:15px;
 
         p {
@@ -13,7 +13,12 @@
     }
 
     .photo {
-        display: inline-flex;
+        
+        
+
+        img{
+            width:300px;
+        }
 
     }
 }
