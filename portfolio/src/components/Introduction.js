@@ -1,5 +1,8 @@
 import React from 'react';
+
 import beachSmile from '../assets/images/beachsmile.jpg';
+
+
 import Title from '../components/CustomTitle';
 import SubTitle from '../components/CustomSubTitle';
 
@@ -30,6 +33,7 @@ const Introduction = () => {
                 </div>
                 <div className='photo'>
                     <img src={beachSmile} alt='beachsmile' />
+                    
             
                 <a href={CVfile} download>
                     <Button label={"Télécharger mon CV"}></Button>
