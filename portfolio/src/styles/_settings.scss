@@ -70,13 +70,9 @@ li {
 }
 
 
-
-.lite-bg-prime-color{
-    background-color: $color-1;
-    color: $white;
-}
-
 .left-side{
+    background-image: url("../assets/images/palms.png");
+    background-position: top;
     min-height: 100vh;
     width: 20%;
     min-width:353px;

@@ -1,16 +1,19 @@
 import React from 'react';
 import { skills } from "../personal";
+import Title from '../components/CustomTitle';
+import SubTitle from '../components/CustomSubTitle';
 
 const Skills = () => {
     return (
         <section className='skills'>
-            <h2>LANGAGES & FRAMEWORKS</h2>
+            <Title label={"Je travaille avec ..."}></Title>
+            
             <div className='skills-list'>
             {skills.data.map((skill)=>{
                 return(
                     <div className='column'>
-                        <h3 style={{display:"none"}}>{skill.skillName}</h3>
                         <img src={skill.skillLogo} alt={skill.skillName} />
+                        <SubTitle>{skill.skillName}</SubTitle>
                     </div>
                 )
             })}
