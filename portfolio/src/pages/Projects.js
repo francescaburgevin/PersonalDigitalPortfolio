@@ -17,7 +17,7 @@ const Projects = () => {
         <SubTitle label={"Voir mes travaux ci-dessous. Sauf indication contraire explicite, toutes leurs parties back-end et front-end ont été entièrement réalisées par moi."}></SubTitle>
         <SubTitle label={"Actuellement disponible pour des projets nouveaux et existants."}></SubTitle>
 
-        <GitHubFetch></GitHubFetch>
+        <GitHubFetch />
 
 
       </div>

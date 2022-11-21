@@ -14,7 +14,17 @@ function GitHubFetch() {
     const fetchData = async () => {
         const { data } = await axios.get("https://api.github.com/users/francescaburgevin/repos")
         setPosts(data);
+
     }
+
+    const getDate = (dateTime) => {
+        let splitDate = String(dateTime).split("T")
+        splitDate = new Date(splitDate[0]);
+        splitDate = splitDate.toLocaleDateString();
+        return splitDate;
+    }
+
+
 
     console.log(posts);
     return (
@@ -23,13 +33,13 @@ function GitHubFetch() {
             <div>
 
                 {posts.map(post => (
-                    <div>
+                    <div className='post-card'>
                         <li key="{post}">{post.name}
 
                             {post.language}
                             <a href={post.html_url}>See code</a>
-                            <p>Owner: {post.owner.login}</p>
-                            <p>Last push: {post.pushed_at}</p>
+                            <p>Propriétaire: {post.owner.login}</p>
+                            <p>Dernier push: {getDate(post.pushed_at)}</p>
                         </li>
                     </div>
                 )
