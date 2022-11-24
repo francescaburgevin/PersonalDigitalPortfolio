@@ -6,11 +6,12 @@ const buttonStyle = {
   height: 'max-content',
   width: "max-content",
   background: "transparent",
-  border:"2px solid #02989d",
-  borderRadius:"8px",
-  color:"#02989d",
+  border: "2px solid #02989d",
+  borderRadius: "8px",
+  color: "#02989d",
   fontFamily: "barlow-bold",
-  fontSize:"16px"
+  fontSize: "16px",
+  cursor: "pointer"
 };
 
 

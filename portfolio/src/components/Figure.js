@@ -1,6 +1,6 @@
 import React from 'react';
 import Avatar from './Avatar';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Figure = () => {
@@ -8,9 +8,8 @@ const Figure = () => {
         <section>
             <div className='title'>
                 <Avatar />
-                <h2>Francesca Burgevin</h2>
-                <h3>Chef de projet Digital</h3>
-                <h3>Développeuse Web Full Stack Junior</h3>
+                <h2>Francesca Burgevin-Nadel</h2>
+                <h3>Développeuse Web Full-Stack Junior</h3>
                 <h4>Français - English - Italiano</h4>
             </div>
             <div className="network-icons vertical-line align-end">

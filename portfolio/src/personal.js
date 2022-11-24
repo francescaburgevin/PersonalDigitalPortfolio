@@ -56,13 +56,43 @@ const projects = {
   data: [
     {
       repoUsername: "francescaburgevin",
-      projectRepo: "Portfolio",
+      projectRepo: "PersonalDigitalPortfolio",
+      projectTitle: "Portfolio Digital Perso",
+      projectThumbnail: "https://i.pinimg.com/originals/69/c8/2d/69c82d4aad422e367ea821c2546b4312.png",
+      projectBaseline: "Une carte de visite",
+      projectDescription: "3 pages pour me présenter : A propos, CV et Projets.",
+      projectPoints: ["Site web responsive design", "API vers GitHub Repo"],
+      projectTechs: ["HTML", "SCSS", "React.js"]
+    },
+    {
+      repoUsername: "francescaburgevin",
+      projectRepo: "TipCalculatorUSA",
+      projectTitle: "Calculateur de gratuité Etats-Unis",
       projectThumbnail: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-      projectTitle: "title goes here",
-      projectBaseline: "this is the baseline",
-      projectDescription: "describe the description",
-      projectPoints: ["bullet", "points", "are easy", "to read"],
-      projectTechs: ["gots to", "list the", "technologies"]
+      projectBaseline: "Pour ne plus être dans le flou.",
+      projectDescription: "Quand à Rome, faites comme les Romains!",
+      projectPoints: ["Site web responsive design"],
+      projectTechs: ["HTML", "CSS"]
+    },
+    {
+      repoUsername: "francescaburgevin",
+      projectRepo: "Montessori",
+      projectTitle: "Feed d'une école Montessori",
+      projectThumbnail: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+      projectBaseline: "Garder le lien entre parents et école.",
+      projectDescription: "Un site avec un espace privé permettant de partager des images et des annonces avec les parents.",
+      projectPoints: ["Site web responsive design", "Mobile-First", "MVC", "CRUD", "Espace privée"],
+      projectTechs: ["HTML", "CSS", "Javascript", "PHP", "MySQL"]
+    },
+    {
+      repoUsername: "francescaburgevin",
+      projectRepo: "RomaSpa",
+      projectTitle: "Centre de bien-être de luxe: Roma",
+      projectThumbnail: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+      projectBaseline: "Revenir à soi-même",
+      projectDescription: "Un site représentatif du centre de bien-être exceptionnel.",
+      projectPoints: ["Site web responsive design"],
+      projectTechs: ["HTML", "CSS", "JavaScript", "PHP"]
     }
   ]
 };

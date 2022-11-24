@@ -1,7 +1,7 @@
 @font-face {
     // name
-    font-family: "liana";
-    src: url(../assets/fonts/Liana.ttf);
+    font-family: "H2";
+    src: url('../assets/fonts/BebasNeue.ttf');
 
     // h2 titles
     font-family: "barlow-bold";
@@ -46,13 +46,19 @@ li {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
 .vertical-line {
     display: flex;
     column-gap: 15px;
 }
 
 .column {
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
 
@@ -61,7 +67,8 @@ li {
 }
 
 .align-center {
-    align-items: center;;
+    align-items: center;
+    ;
 }
 
 .page-split {
@@ -70,52 +77,52 @@ li {
 }
 
 
-.left-side{
+.left-side {
     background-image: url("../assets/images/palms.png");
     background-position: top;
     min-height: 100vh;
     width: 20%;
-    min-width:353px;
+    min-width: 353px;
     padding: 30px;
     text-align: right;
-    position:fixed;
+    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
 }
 
-.right-side{
+.right-side {
     margin: 60px;
     margin-left: 500px;
-    width:70%;
+    width: 70%;
     display: flex;
     flex-direction: column;
 }
 
-.cv-section{
-    display:flex;
+.cv-section {
+    display: flex;
 
-    .cv{
-        img{
+    .cv {
+        img {
             width: 100%;
             min-width: 600px;
         }
     }
 
-    .cv-options{
-        margin:0;
+    .cv-options {
+        margin: 0;
         text-align: center;
-    
-        a{
+
+        a {
             text-decoration: none;
-        
-            img{
+
+            img {
                 width: 40px;
                 height: 40px;
                 margin-bottom: 20px;
             }
         }
     }
-    
+
 }

@@ -7,18 +7,19 @@ const Skills = () => {
     return (
         <section className='skills'>
             <Title label={"Je travaille avec ..."}></Title>
-            
+
             <div className='skills-list'>
-            {skills.data.map((skill)=>{
-                return(
-                    <div className='column'>
-                        <img src={skill.skillLogo} alt={skill.skillName} />
-                        <SubTitle>{skill.skillName}</SubTitle>
-                    </div>
-                )
-            })}
+                {skills.data.map((skill, index) => {
+                    return (
+                        <div className='column' key={index}>
+                            <img src={skill.skillLogo} alt={skill.skillName} />
+                            <SubTitle>{skill.skillName}</SubTitle>
+                        </div>
+                    )
+                })}
             </div>
         </section>
-    )};
+    )
+};
 
 export default Skills;
