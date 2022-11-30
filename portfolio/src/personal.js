@@ -58,7 +58,7 @@ const projects = {
       repoUsername: "francescaburgevin",
       projectRepo: "PersonalDigitalPortfolio",
       projectTitle: "Portfolio Digital Perso",
-      projectThumbnail: "/images/fibonacci_large.png",
+      projectThumbnail: "/images/portfolio_large.png",
       projectBaseline: "Une carte de visite",
       projectDescription: "3 pages pour me présenter : A propos, CV et Projets.",
       projectPoints: ["Site web responsive design", "API vers GitHub Repo"],
@@ -69,9 +69,9 @@ const projects = {
       projectRepo: "TipCalculatorUSA",
       projectTitle: "Calculateur de gratuité Etats-Unis",
       projectThumbnail: "/images/tip_large.png",
-      projectBaseline: "Pour ne plus être dans le flou.",
-      projectDescription: "Premier projet en JavaScript sans avoir jamais eu un cours en JS. Le projet est incomplet car je dois terminer l'option pourcentage personnel.",
-      projectPoints: ["Site web responsive design"],
+      projectBaseline: "Pour vous rendre la vie plus facile",
+      projectDescription: "Premier projet en JavaScript sans avoir jamais eu un cours en JS.",
+      projectPoints: ["Front End Mentor project"],
       projectTechs: ["HTML", "CSS", "JavaScript"]
     },
     {
@@ -97,11 +97,11 @@ const projects = {
     {
       repoUsername: "francescaburgevin",
       projectRepo: "AngularFirstLook",
-      projectTitle: "Angular beginner project",
-      projectThumbnail: "/images/fibonacci_large.png",
-      projectBaseline: "What is Angular?",
-      projectDescription: "write something here",
-      projectPoints: ["Site web responsive design"],
+      projectTitle: "Premier projet en Angular",
+      projectThumbnail: "/images/angular_first_large.png",
+      projectBaseline: "Projet simple pour démarrer.",
+      projectDescription: "Un simple introduction au fonctionnement de ce framework. Création des components, organisation des stylesheets.",
+      projectPoints: ["Site web responsive design", "Comprendre le fonctionnement avec Components"],
       projectTechs: ["HTML", "CSS", "TypeScript"]
     },
     {

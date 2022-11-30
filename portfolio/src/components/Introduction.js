@@ -1,7 +1,6 @@
 import React from 'react';
 
-import beachSmile from '../assets/images/beachsmile.jpg';
-
+//import beachSmile from '../assets/images/beachsmile.jpg';
 
 import Title from '../components/CustomTitle';
 import SubTitle from '../components/CustomSubTitle';
@@ -33,10 +32,7 @@ const Introduction = () => {
                         </a>
                     </div>
                 </div>
-                
-                <div className='photo '>
-                    <img src={beachSmile} alt='beachsmile' />
-                </div>
+
 
             </div>
 
@@ -45,3 +41,7 @@ const Introduction = () => {
 };
 
 export default Introduction;
+
+                //<div className='photo '>
+                //    <img src={beachSmile} alt='beachsmile' />
+                //</div>
