@@ -2,10 +2,9 @@ import React from 'react';
 import { projects } from '../personal';
 //import Button from '../components/CustomButton';
 
+
 const cardStyle = {
     padding: "10px 20px",
-    height: 'max-content',
-    width: "100%",
     color: "#02989d",
     fontFamily: "barlow-bold",
     fontSize: "16px"
@@ -57,13 +56,15 @@ function ProjectCard({ repo }) {
                 <a href={repo.repo.html_url}>Link</a>
                 <p>Propriétaire : {repo.repo.owner.login}</p>
                 <p>Dernier push : {getDate(repo.repo.pushed_at)}</p>
+                <p>Repo Name : {isSame(repo).name}</p>
+                <div className='list'>Repo Techs : {repo.repo.techs}</div>
             </div>
 
             <div className="right">
-                <p>Repo Name : {isSame(repo).name}</p>
-                <div className='list'>Repo Techs : {repo.repo.techs}</div>
 
-                <img style={{ width: "50px" }} src={isSame(repo).image} alt="place here" />
+
+
+                <img src={(isSame(repo).image)} alt="project thumbnail" />
             </div>
 
         </div>

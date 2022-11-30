@@ -27,20 +27,15 @@ const Introduction = () => {
                     <p>Une conjoncture d'ambition et d'apprentissage, je me suis lancée dans l'ère numérique.</p>
                     <p>Grâce au code, je découvre un nouveau talent dans un secteur en évolution constante, porté par la connectivité mondiale.</p>
 
-                    <SubTitle label={"& Vous ?"}></SubTitle>
-                    <p>Vous pouvez compter sur mon investissement dans votre projet.</p>
-                    <p>Je vous apporterai mes connaissances en marketing et en numérique.</p>
-                    <p>Ouverte à évoluer dans : Java, Python et bien d'autres.</p>
-
+                    <div className="button">
+                        <a href={CVfile} download>
+                            <Button label={"Télécharger mon CV"}></Button>
+                        </a>
+                    </div>
                 </div>
-                <div className='photo'>
+                
+                <div className='photo '>
                     <img src={beachSmile} alt='beachsmile' />
-
-
-                    <a href={CVfile} download>
-                        <Button label={"Télécharger mon CV"}></Button>
-                    </a>
-
                 </div>
 
             </div>

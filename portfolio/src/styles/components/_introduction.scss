@@ -12,13 +12,17 @@
         margin-bottom: 25px;
 
         p {
-            margin-bottom: 15px;
+            margin-bottom: 5px;
             margin-left: 15px;
             width: 80%;
 
             span{
                 font-size: larger;
             }
+        }
+
+        .button{
+            margin-top: 30px;
         }
     }
 
@@ -33,10 +37,6 @@
         img{
             width:475px;
             border-radius: 33%;
-            box-shadow: 14px 11px 2px $color-2;
         }
-
     }
-
-    
 }

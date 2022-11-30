@@ -18,11 +18,12 @@ function GitHubFetch() {
     }
 
     const listStyle = {
-        height: '300px',
-        width: "80%",
+        
         background: "transparent",
-        border: "2px solid lightgray",
+        border: "1px solid lightgray",
         borderRadius: "8px",
+        marginBottom: "40px",
+        padding: "14px"
     };
 
     return (

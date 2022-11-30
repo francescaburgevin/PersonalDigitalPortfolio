@@ -4,3 +4,14 @@
     border: 1px solid $color-1;
     border-radius: 8px;
 }
+
+.project-card{
+    display: flex;
+    justify-content: space-between;
+
+    img{
+        width: 680px;
+        box-shadow: 1px 2px 3px grey;
+        margin-left:20px;
+    }
+}

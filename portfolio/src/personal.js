@@ -58,7 +58,7 @@ const projects = {
       repoUsername: "francescaburgevin",
       projectRepo: "PersonalDigitalPortfolio",
       projectTitle: "Portfolio Digital Perso",
-      projectThumbnail: "https://i.pinimg.com/originals/69/c8/2d/69c82d4aad422e367ea821c2546b4312.png",
+      projectThumbnail: "/images/fibonacci_large.png",
       projectBaseline: "Une carte de visite",
       projectDescription: "3 pages pour me présenter : A propos, CV et Projets.",
       projectPoints: ["Site web responsive design", "API vers GitHub Repo"],
@@ -68,19 +68,19 @@ const projects = {
       repoUsername: "francescaburgevin",
       projectRepo: "TipCalculatorUSA",
       projectTitle: "Calculateur de gratuité Etats-Unis",
-      projectThumbnail: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+      projectThumbnail: "/images/tip_large.png",
       projectBaseline: "Pour ne plus être dans le flou.",
-      projectDescription: "Quand à Rome, faites comme les Romains!",
+      projectDescription: "Premier projet en JavaScript sans avoir jamais eu un cours en JS. Le projet est incomplet car je dois terminer l'option pourcentage personnel.",
       projectPoints: ["Site web responsive design"],
-      projectTechs: ["HTML", "CSS"]
+      projectTechs: ["HTML", "CSS", "JavaScript"]
     },
     {
       repoUsername: "francescaburgevin",
       projectRepo: "Montessori",
       projectTitle: "Feed d'une école Montessori",
-      projectThumbnail: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+      projectThumbnail: "/images/montessori_large.png",
       projectBaseline: "Garder le lien entre parents et école.",
-      projectDescription: "Un site avec un espace privé permettant de partager des images et des annonces avec les parents.",
+      projectDescription: "Le projet a été présenté à la fin de ma formation intensive. Un site avec un espace privé permettant de partager des images et des annonces avec les parents. Plusieurs tables, complexité des tables croisées, contrôles de sécurité au login et sur chaque page sensible.",
       projectPoints: ["Site web responsive design", "Mobile-First", "MVC", "CRUD", "Espace privée"],
       projectTechs: ["HTML", "CSS", "Javascript", "PHP", "MySQL"]
     },
@@ -88,11 +88,61 @@ const projects = {
       repoUsername: "francescaburgevin",
       projectRepo: "RomaSpa",
       projectTitle: "Centre de bien-être de luxe: Roma",
-      projectThumbnail: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+      projectThumbnail: "/images/roma_large.png",
       projectBaseline: "Revenir à soi-même",
-      projectDescription: "Un site représentatif du centre de bien-être exceptionnel.",
+      projectDescription: "Un site représentatif du centre de bien-être exceptionnel. Projet réalisé en trinôme avec 2 élèves du cours. J'ai codé pour la première fois avec JSON pour passer les informations entre les pages. Création d'une page login.",
       projectPoints: ["Site web responsive design"],
-      projectTechs: ["HTML", "CSS", "JavaScript", "PHP"]
+      projectTechs: ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      repoUsername: "francescaburgevin",
+      projectRepo: "AngularFirstLook",
+      projectTitle: "Angular beginner project",
+      projectThumbnail: "/images/fibonacci_large.png",
+      projectBaseline: "What is Angular?",
+      projectDescription: "write something here",
+      projectPoints: ["Site web responsive design"],
+      projectTechs: ["HTML", "CSS", "TypeScript"]
+    },
+    {
+      repoUsername: "francescaburgevin",
+      projectRepo: "PHPBlogFirstLook",
+      projectTitle: "PHP beginner project",
+      projectThumbnail: "/images/fibonacci_large.png",
+      projectBaseline: "What is PHP? How to build with MVC and CRUD data?",
+      projectDescription: "First PHP project. First with MVC. First CRUD",
+      projectPoints: ["Site web responsive design"],
+      projectTechs: ["HTML", "CSS", "PHP"]
+    },
+    {
+      repoUsername: "francescaburgevin",
+      projectRepo: "Fibonacci",
+      projectTitle: "Small also project in JS",
+      projectThumbnail: "/images/fibonacci_large.png",
+      projectBaseline: "How to calculate the Fibonacci series.",
+      projectDescription: "A simple calculator of the Fibonacci series.",
+      projectPoints: ["Site web responsive design"],
+      projectTechs: ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      repoUsername: "francescaburgevin",
+      projectRepo: "Discount",
+      projectTitle: "Small project in JS",
+      projectThumbnail: "/images/fibonacci_large.png",
+      projectBaseline: "How to calculate the Fibonacci series.",
+      projectDescription: "A simple calculator of the Fibonacci series.",
+      projectPoints: ["Site web responsive design"],
+      projectTechs: ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      repoUsername: "francescaburgevin",
+      projectRepo: "ConsoleLogCalculator",
+      projectTitle: "Small project in JS",
+      projectThumbnail: "/images/fibonacci_large.png",
+      projectBaseline: "Calculate to numbers.",
+      projectDescription: "A simple calculator.",
+      projectPoints: ["Simple"],
+      projectTechs: ["HTML", "JavaScript"]
     }
   ]
 };
