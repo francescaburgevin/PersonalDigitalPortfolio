@@ -1,6 +1,10 @@
 import React from 'react';
 import { projects } from '../personal';
-//import Button from '../components/CustomButton';
+import ProjectTitle from './CustomProjectTitle';
+import ProjectBaseline from './ProjectBaseline';
+import ProjectTechs from './ProjectTechs';
+import ProjectLink from './ProjectLink';
+import ProjectPoints from './ProjectPoints';
 
 
 const cardStyle = {
@@ -49,15 +53,31 @@ function ProjectCard({ repo }) {
         <div style={cardStyle} className="project-card">
 
             <div className="left">
-                <h2>{repo.repo.name}</h2>
-                <p>{repo.repo.baseline}</p>
+                <ProjectTitle label={repo.repo.title}></ProjectTitle>
+                <ProjectBaseline label={repo.repo.baseline}></ProjectBaseline>
                 <p>{isSame(repo).description}</p>
-                <p>Langue : {repo.repo.language}</p>
-                <a href={repo.repo.html_url}>Link</a>
+
+                <ul className='points-list'>
+                    {repo.repo.points.map((point) => {
+                        return (
+                            <ProjectPoints label={point}></ProjectPoints>
+                        )
+                    })}
+                </ul>
+
+                <a href={repo.repo.html_url}> <ProjectLink label={"Lien"}></ProjectLink></a>
                 <p>Propriétaire : {repo.repo.owner.login}</p>
+                <p>Repository : {repo.repo.name}</p>
                 <p>Dernier push : {getDate(repo.repo.pushed_at)}</p>
-                <p>Repo Name : {isSame(repo).name}</p>
-                <div className='list'>Repo Techs : {repo.repo.techs}</div>
+
+                <div className='techs-list'>
+                    {repo.repo.techs.map((tech) => {
+                        return (
+                            <ProjectTechs label={tech}></ProjectTechs>
+                        )
+                    })}
+                </div>
+
             </div>
 
             <div className="right">

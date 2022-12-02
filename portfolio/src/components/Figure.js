@@ -8,8 +8,8 @@ const Figure = () => {
         <section>
             <div className='title'>
                 <Avatar />
-                <h2>Francesca Burgevin-Nadel</h2>
-                <h3>Développeuse Web Full-Stack Junior</h3>
+                <h2>Francesca</h2>
+                <h3>Développeuse Web Junior</h3>
                 <h4>Français - English - Italiano</h4>
             </div>
             <div className="network-icons vertical-line align-end">

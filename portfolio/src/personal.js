@@ -57,31 +57,31 @@ const projects = {
     {
       repoUsername: "francescaburgevin",
       projectRepo: "PersonalDigitalPortfolio",
-      projectTitle: "Portfolio Digital Perso",
+      projectTitle: "Portfolio Digital",
       projectThumbnail: "/images/portfolio_large.png",
       projectBaseline: "Une carte de visite",
       projectDescription: "3 pages pour me présenter : A propos, CV et Projets.",
-      projectPoints: ["Site web responsive design", "API vers GitHub Repo"],
+      projectPoints: ["responsive design", "API vers GitHub Repo"],
       projectTechs: ["HTML", "SCSS", "React.js"]
     },
     {
       repoUsername: "francescaburgevin",
       projectRepo: "TipCalculatorUSA",
-      projectTitle: "Calculateur de gratuité Etats-Unis",
+      projectTitle: "Premier Projet JS",
       projectThumbnail: "/images/tip_large.png",
-      projectBaseline: "Pour vous rendre la vie plus facile",
-      projectDescription: "Premier projet en JavaScript sans avoir jamais eu un cours en JS.",
-      projectPoints: ["Front End Mentor project"],
+      projectBaseline: "Calculatrice de gratuité Etats-Unis",
+      projectDescription: "Un challenge Frontend Mentor. Mon premier projet en JavaScript en autodidacte.",
+      projectPoints: ["Frontend Mentor", "calculs"],
       projectTechs: ["HTML", "CSS", "JavaScript"]
     },
     {
       repoUsername: "francescaburgevin",
       projectRepo: "Montessori",
-      projectTitle: "Feed d'une école Montessori",
+      projectTitle: "Montessori",
       projectThumbnail: "/images/montessori_large.png",
       projectBaseline: "Garder le lien entre parents et école.",
-      projectDescription: "Le projet a été présenté à la fin de ma formation intensive. Un site avec un espace privé permettant de partager des images et des annonces avec les parents. Plusieurs tables, complexité des tables croisées, contrôles de sécurité au login et sur chaque page sensible.",
-      projectPoints: ["Site web responsive design", "Mobile-First", "MVC", "CRUD", "Espace privée"],
+      projectDescription: "Un site et un feed privé comme projet de fin de formation. Le feed permet de partager des images et des annonces avec les parents. Plusieurs tables, complexité des tables croisées, contrôles de sécurité au login et sur chaque page sensible.",
+      projectPoints: ["responsive design", "mobile-first", "MVC", "CRUD", "espace privée", "login"],
       projectTechs: ["HTML", "CSS", "Javascript", "PHP", "MySQL"]
     },
     {
@@ -90,59 +90,39 @@ const projects = {
       projectTitle: "Centre de bien-être de luxe: Roma",
       projectThumbnail: "/images/roma_large.png",
       projectBaseline: "Revenir à soi-même",
-      projectDescription: "Un site représentatif du centre de bien-être exceptionnel. Projet réalisé en trinôme avec 2 élèves du cours. J'ai codé pour la première fois avec JSON pour passer les informations entre les pages. Création d'une page login.",
-      projectPoints: ["Site web responsive design"],
+      projectDescription: "Un site d'un centre de bien-être. Projet réalisé en trinôme avec 2 élèves du cours. J'ai codé pour la première fois avec JSON pour passer les informations entre les pages. Création d'une page login.",
+      projectPoints: ["responsive design", "login avec système de sécurité", "panier"],
       projectTechs: ["HTML", "CSS", "JavaScript"]
     },
     {
       repoUsername: "francescaburgevin",
       projectRepo: "AngularFirstLook",
-      projectTitle: "Premier projet en Angular",
+      projectTitle: "Premier Projet Angular",
       projectThumbnail: "/images/angular_first_large.png",
-      projectBaseline: "Projet simple pour démarrer.",
-      projectDescription: "Un simple introduction au fonctionnement de ce framework. Création des components, organisation des stylesheets.",
-      projectPoints: ["Site web responsive design", "Comprendre le fonctionnement avec Components"],
+      projectBaseline: "Introduction au framework Angular",
+      projectDescription: "Un site de recettes. Création des components, organisation des stylesheets.",
+      projectPoints: ["responsive design", "components"],
       projectTechs: ["HTML", "CSS", "TypeScript"]
     },
     {
       repoUsername: "francescaburgevin",
       projectRepo: "PHPBlogFirstLook",
-      projectTitle: "PHP beginner project",
-      projectThumbnail: "/images/fibonacci_large.png",
-      projectBaseline: "What is PHP? How to build with MVC and CRUD data?",
-      projectDescription: "First PHP project. First with MVC. First CRUD",
-      projectPoints: ["Site web responsive design"],
+      projectTitle: "Premier Projet PHP",
+      projectThumbnail: "/images/php_first_blog.png",
+      projectBaseline: "Introduction à PHP",
+      projectDescription: "Un blog pour publier des articles. La structure MVC est construite avec des fonctionnalités CRUD et un database.",
+      projectPoints: ["MVC", "CRUD", "database", "blog"],
       projectTechs: ["HTML", "CSS", "PHP"]
     },
     {
       repoUsername: "francescaburgevin",
       projectRepo: "Fibonacci",
-      projectTitle: "Small also project in JS",
+      projectTitle: "Fibonacci",
       projectThumbnail: "/images/fibonacci_large.png",
-      projectBaseline: "How to calculate the Fibonacci series.",
-      projectDescription: "A simple calculator of the Fibonacci series.",
-      projectPoints: ["Site web responsive design"],
+      projectBaseline: "Calculer l'ensemble de rangs.",
+      projectDescription: "En mathématiques, la suite de Fibonacci est une suite d'entiers dans laquelle chaque terme est la somme des deux termes qui le précèdent.",
+      projectPoints: ["algorithme"],
       projectTechs: ["HTML", "CSS", "JavaScript"]
-    },
-    {
-      repoUsername: "francescaburgevin",
-      projectRepo: "Discount",
-      projectTitle: "Small project in JS",
-      projectThumbnail: "/images/fibonacci_large.png",
-      projectBaseline: "How to calculate the Fibonacci series.",
-      projectDescription: "A simple calculator of the Fibonacci series.",
-      projectPoints: ["Site web responsive design"],
-      projectTechs: ["HTML", "CSS", "JavaScript"]
-    },
-    {
-      repoUsername: "francescaburgevin",
-      projectRepo: "ConsoleLogCalculator",
-      projectTitle: "Small project in JS",
-      projectThumbnail: "/images/fibonacci_large.png",
-      projectBaseline: "Calculate to numbers.",
-      projectDescription: "A simple calculator.",
-      projectPoints: ["Simple"],
-      projectTechs: ["HTML", "JavaScript"]
     }
   ]
 };

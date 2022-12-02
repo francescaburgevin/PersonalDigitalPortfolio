@@ -1,3 +1,18 @@
+.white {
+    background-color: white;
+}
+
+.project-title {
+    width: 50%;
+}
+
+.techs-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+
 .repo-card-div {
     width: 90px;
     height: max-content;
@@ -5,13 +20,13 @@
     border-radius: 8px;
 }
 
-.project-card{
+.project-card {
     display: flex;
     justify-content: space-between;
 
-    img{
+    img {
         width: 680px;
         box-shadow: 1px 2px 3px grey;
-        margin-left:20px;
+        margin-left: 20px;
     }
 }

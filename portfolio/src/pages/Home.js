@@ -1,6 +1,4 @@
 import React from "react";
-import Introduction from "../components/Introduction";
-import Skills from "../components/Skills";
 import Sidebar from "../containers/Sidebar";
 
 const Home = () => {
@@ -11,8 +9,7 @@ const Home = () => {
 
       <div className="right-side">
         <h1>ACCUEIL</h1>
-        <Introduction />
-        <Skills />
+
       </div>
     </div>
   );

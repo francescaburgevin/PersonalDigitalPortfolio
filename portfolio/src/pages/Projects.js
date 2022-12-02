@@ -6,14 +6,18 @@ import GitHubFetch from "../components/GitHubFetch";
 
 const Projects = () => {
   return (
-    <div className="page-split">
+    <div className="page-split white">
       <Sidebar />
 
       <div className="right-side">
-        <h1>PROJETS</h1>
-        <Title label={"Portfolio"}></Title>
-        <SubTitle label={"Voir mes travaux ci-dessous. Sauf indication contraire explicite, toutes leurs parties back-end et front-end ont été entièrement réalisées par moi."}></SubTitle>
-        <SubTitle label={"Actuellement disponible pour des projets nouveaux et existants."}></SubTitle>
+
+        <div className="project-title">
+          <h1>PROJETS</h1>
+          <Title label={"Portfolio"}></Title>
+          <SubTitle label={"I can code! Voici mes projets sur GitHub. Sauf indication contraire explicite, toutes leurs parties back-end et front-end ont été entièrement réalisées par moi."}></SubTitle>
+          <SubTitle label={"Actuellement disponible pour des projets nouveaux et existants."}></SubTitle>
+        </div>
+
         <GitHubFetch />
       </div>
 

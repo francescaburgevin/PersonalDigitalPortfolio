@@ -20,7 +20,6 @@ function GitHubFetch() {
     const listStyle = {
 
         background: "transparent",
-        borderBottom: "1px solid lightgray",
         borderTop: "1px solid lightgray",
         marginBottom: "40px",
         padding: "14px"
