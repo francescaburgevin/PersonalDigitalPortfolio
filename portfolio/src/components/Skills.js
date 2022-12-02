@@ -6,7 +6,7 @@ import SubTitle from '../components/CustomSubTitle';
 const Skills = () => {
     return (
         <section className='skills'>
-            <Title label={"Les technos maîtrisées"}></Title>
+            <Title label={"J'ai des bonnes bases dans ..."}></Title>
 
             <div className='skills-list'>
                 {skills.data.map((skill, index) => {
