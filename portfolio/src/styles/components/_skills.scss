@@ -1,15 +1,14 @@
 .skills {
-    
-    h2{
+
+    h2 {
         color: $color-2;
         margin-bottom: 30px;
     }
 
-    .skills-list{
+    .skills-list {
         display: grid;
         grid-gap: 1rem;
-        grid-template-columns:  repeat(11, 60px); 
-        grid-template-rows:  repeat(2, 1fr); 
+        grid-template-columns: repeat(11, 40px);
     }
-    
+
 }

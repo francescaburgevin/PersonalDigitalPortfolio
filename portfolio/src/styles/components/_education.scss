@@ -1,4 +1,4 @@
-.introduction {
+.education {
     display: flex;
     justify-content: space-evenly;
     color: $color-2;
@@ -7,14 +7,15 @@
         height: max-content;
         margin-bottom: 25px;
 
+        a {
+            color: red;
+        }
+
         p {
             margin-bottom: 10px;
             margin-top: 10px;
             width: 90%;
-        }
 
-        .button {
-            margin-top: 30px;
         }
     }
 }

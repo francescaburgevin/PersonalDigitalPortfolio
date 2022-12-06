@@ -3,7 +3,7 @@ import '../styles/_settings.scss';
 
 const style = {
   marginTop: "10px",
-  paddingLeft: "30px",
+  marginLeft: "30px",
   fontFamily: 'barlow-regular',
   fontSize: "15px",
   backgroundColor: "transparent",
@@ -15,7 +15,7 @@ const ProjectTechs = ({ label }) => (
   <li
     style={style}
   >
-    ∙ {label}
+    {label}
   </li>
 );
 

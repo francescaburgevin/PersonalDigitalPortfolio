@@ -5,13 +5,16 @@ const buttonStyle = {
   padding: "10px 20px",
   height: 'max-content',
   width: "max-content",
-  background: "transparent",
-  border: "2px solid #02989d",
+  //background: "black",
+  background: "#02989d",
   borderRadius: "8px",
-  color: "#02989d",
-  fontFamily: "barlow-bold",
-  fontSize: "16px",
-  cursor: "pointer"
+  //color: "#02989d",
+  color: "white",
+  fontFamily: "barlow-regular",
+  fontSize: "17px",
+  cursor: "pointer",
+  boxShadow: "none",
+  border: "none",
 };
 
 

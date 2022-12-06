@@ -18,23 +18,22 @@ function GitHubFetch() {
     }
 
     const listStyle = {
-
         background: "transparent",
         borderTop: "1px solid lightgray",
         marginBottom: "40px",
-        padding: "14px"
+        padding: "14px",
+        listStyleType: "none"
     };
 
     return (
-
-        <div>
+        <ul>
             {repos.map(repo => (
                 <li style={listStyle} key={repo}>
                     <ProjectCard repo={{ repo }} />
                 </li>
             )
             )}
-        </div>
+        </ul>
     )
 }
 export default GitHubFetch;

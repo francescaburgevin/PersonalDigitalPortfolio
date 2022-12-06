@@ -127,8 +127,49 @@ const projects = {
   ]
 };
 
+const assos = {
+  data: [
+    {
+      logo: "/images/roma_large.png",
+      name: "3W Academy",
+      link: "http"
+    },
+    {
+      logo: "/images/roma_large.png",
+      name: "Google Analytics",
+      link: "http"
+    },
+    {
+      logo: "/images/roma_large.png",
+      name: "CEGEFOS",
+      link: "http"
+    },
+    {
+      logo: "/images/roma_large.png",
+      name: "Les P'tits Héros",
+      link: "http"
+    },
+    {
+      logo: "/images/roma_large.png",
+      name: "EFS",
+      link: "http"
+    },
+    {
+      logo: "/images/roma_large.png",
+      name: "Opéra de Bordeaux",
+      link: "http"
+    },
+    {
+      logo: "/images/roma_large.png",
+      name: "Wine Spirit Education Trust",
+      link: "http"
+    }
+  ]
+};
+
 
 export {
   skills,
-  projects
+  projects,
+  assos
 };

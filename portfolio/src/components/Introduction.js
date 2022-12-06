@@ -1,35 +1,30 @@
 import React from 'react';
-
-//import beachSmile from '../assets/images/beachsmile.jpg';
-
 import Title from '../components/CustomTitle';
-import SubTitle from '../components/CustomSubTitle';
+import CloseX from './CloseX';
 
-import Button from "../components/CustomButton";
-import CVfile from "../assets/files/cv_burgevin_nov_22.pdf";
 
 const Introduction = () => {
+
+
+
     return (
         <section>
+            <CloseX />
             <div className='introduction'>
                 <div className='text-field'>
 
                     <Title label={"A propos de moi"}></Title>
 
-                    <p>J'ai jouit de 8 ans dans la production télévisée entre New York City et Paris, et 14 ans dans le Marketing. </p>
-                    <p>A travers mes expériences, j'ai pu développer et appliquer des compétences techniques et des qualités professionnelles
-                        telles que la réalisation d'un projet, le travail avec une équipe diversifiée, la recherche de solutions à des problèmes
-                        difficiles et la gestion du stress.
+                    <p>J'ai profité de 8 ans dans la production télévisée entre New York City et Paris, et 14 ans dans le Marketing en France. </p>
+                    <p>J’ai toujours été attirée par la gestion de projet, l’analyse des besoins et la recherche de solutions techniques,
+                        ainsi que le besoin de m’instruire sur les informations techniques de nouveaux produits ou m’informer sur les nouvelles technologies de production.
                     </p>
 
-                    <p>Une conjoncture d'ambition et d'apprentissage, je me suis lancée dans l'ère numérique.</p>
-                    <p>Grâce au code, je découvre un nouveau talent dans un secteur en évolution constante, porté par la connectivité mondiale.</p>
+                    <p>Une conjoncture d'ambition et d'apprentissage, je me suis lancée dans l'ère numérique suite à une formation intensive de Développeur Web.</p>
+                    <p>J’ai appris les langages principaux du développement web, mais c’est la découverte d’une facilité naturelle de comprendre et d’apprendre qui
+                        a été pour moi une vraie révélation!
+                    </p>
 
-                    <div className="button">
-                        <a href={CVfile} download>
-                            <Button label={"Télécharger mon CV"}></Button>
-                        </a>
-                    </div>
                 </div>
 
 
@@ -40,7 +35,3 @@ const Introduction = () => {
 };
 
 export default Introduction;
-
-                //<div className='photo '>
-                //    <img src={beachSmile} alt='beachsmile' />
-                //</div>

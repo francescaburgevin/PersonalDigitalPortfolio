@@ -1,0 +1,41 @@
+.cv-section {
+    display: flex;
+
+    .cv {
+        img {
+            width: 100%;
+            min-width: 600px;
+            box-shadow: 1px 2px 3px gray;
+        }
+    }
+
+    .cv-options {
+        margin: 0;
+        text-align: center;
+
+        a {
+            text-decoration: none;
+
+            img {
+                width: 40px;
+                height: 40px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+.assos-list {
+    text-align: center;
+    font-size: 0.8em;
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+
+    h2 {
+        margin: 0px;
+        color: white;
+    }
+}

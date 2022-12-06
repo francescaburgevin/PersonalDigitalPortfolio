@@ -38,21 +38,25 @@ body {
     font-family: $font-regular;
     background-image: url("../assets/images/bourse.png");
     background-repeat: no-repeat;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 h1 {
     display: none;
 }
 
-li {
-    list-style-type: none;
-}
-
 a {
     text-decoration: none;
     color: white;
     cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
 }
 
 .vertical-line {
@@ -63,6 +67,12 @@ a {
 .column {
     display: flex;
     flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
 }
 
 .align-end {
@@ -101,31 +111,15 @@ a {
     width: 70%;
     display: flex;
     flex-direction: column;
-}
 
-.cv-section {
-    display: flex;
+    .home-text {
+        color: black;
+        font-size: 1.5em;
+        width: 60%;
+        padding-left: 10%;
 
-    .cv {
-        img {
-            width: 100%;
-            min-width: 600px;
-            box-shadow: 1px 2px 3px gray;
-        }
-    }
-
-    .cv-options {
-        margin: 0;
-        text-align: center;
-
-        a {
-            text-decoration: none;
-
-            img {
-                width: 40px;
-                height: 40px;
-                margin-bottom: 20px;
-            }
+        p {
+            margin-bottom: 15px;
         }
     }
 

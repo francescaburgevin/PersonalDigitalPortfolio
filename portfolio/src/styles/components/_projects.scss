@@ -24,8 +24,12 @@
     display: flex;
     justify-content: space-between;
 
+    .left {
+        min-width: 300px;
+    }
+
     img {
-        width: 680px;
+        width: 100%;
         box-shadow: 1px 2px 3px grey;
         margin-left: 20px;
     }

@@ -65,7 +65,7 @@ function ProjectCard({ repo }) {
                     })}
                 </ul>
 
-                <a href={repo.repo.html_url}> <ProjectLink label={"Lien"}></ProjectLink></a>
+                <a target="_blank" rel="noopener noreferrer" href={repo.repo.html_url}> <ProjectLink label={"Lien"}></ProjectLink></a>
                 <p>Propriétaire : {repo.repo.owner.login}</p>
                 <p>Repository : {repo.repo.name}</p>
                 <p>Dernier push : {getDate(repo.repo.pushed_at)}</p>

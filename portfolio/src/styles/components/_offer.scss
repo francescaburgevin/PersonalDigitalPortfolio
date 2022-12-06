@@ -1,6 +1,29 @@
 .bk-adapt {
     color: black;
     background-color: white;
-    opacity: 0.7;
     padding: 50px;
+
+    .button-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        button {
+            background-color: transparent;
+            border: none;
+            align-self: flex-start;
+        }
+
+        .display {
+            position: absolute;
+            z-index: 1;
+            background: whitesmoke;
+            box-shadow: 1px 2px 3px darkgrey;
+            margin: 0;
+            padding: 50px;
+            width: 60%;
+            top: 15%;
+        }
+    }
+
 }

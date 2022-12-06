@@ -13,10 +13,10 @@ const Figure = () => {
                 <h4>Français - English - Italiano</h4>
             </div>
             <div className="network-icons vertical-line align-end">
-                <a href="https://www.linkedin.com/in/francescanadel/?locale=fr_FR">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/francescanadel/?locale=fr_FR">
                     <FontAwesomeIcon icon={faLinkedin} />
                 </a>
-                <a href="https://github.com/francescaburgevin?tab=repositories">
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/francescaburgevin?tab=repositories">
                     <FontAwesomeIcon icon={faGithub} />
                 </a>
             </div>
