@@ -4,43 +4,45 @@ import { assos } from "../personal";
 import CVimage from "../assets/files/cv_burgevin_nov_22.png";
 import CVfile from "../assets/files/cv_burgevin_nov_22.pdf";
 import CVdownload from "../assets/icons/download.png";
-import SubTitle from "../components/CustomSubTitle";
 
 const CV = () => {
 
   return (
     <div className="page-split">
       <Sidebar />
+      <div className="left-hidden"></div>
 
       <div className="right-side">
-
-        <div>
-          <h1>CV Francesca Burgevin Nadel</h1>
-        </div>
+        <h1>CV Francesca Burgevin Nadel</h1>
 
         <div className="cv-section">
+
           <div className='cv'>
             <img src={CVimage} alt='cv' />
           </div>
+
           <div className="cv-options">
             <a href={CVfile} download><img src={CVdownload} alt='cv' /></a>
           </div>
-        </div>
 
-        <div className="row align-center">
-
-          {assos.data.map((assos, index) => {
-            return (
-              <a href={assos.link}>
-                <div className="assos-list" key={index}>
-                  <img src={assos.logo} alt={assos.name} />
-                  <SubTitle style={{ color: "red" }}>{assos.name}</SubTitle>
+          <div className="links">
+            {assos.data.map((asso, index) => {
+              return (
+                <div>
+                  <a href={asso.link} title={asso.title} target="_blank" rel="noopener noreferrer">
+                    <div className="assos-list" key={index}>
+                      <h3>{asso.name}</h3>
+                      <img src={asso.logo} alt={asso.name} />
+                    </div>
+                  </a>
                 </div>
-              </a>
-            )
-          })};
+              )
+            })};
+
+          </div>
 
         </div>
+
 
       </div>
     </div>

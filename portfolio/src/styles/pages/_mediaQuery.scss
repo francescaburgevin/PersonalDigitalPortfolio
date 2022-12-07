@@ -1,0 +1,11 @@
+@media screen and (max-width: 1200px) {
+    .cv-section {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .links {
+            flex-direction: row;
+            justify-content: unset;
+        }
+    }
+}

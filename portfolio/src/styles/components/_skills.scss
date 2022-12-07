@@ -6,9 +6,10 @@
     }
 
     .skills-list {
+        width: 80%;
         display: grid;
         grid-gap: 1rem;
-        grid-template-columns: repeat(11, 40px);
+        grid-template-columns: repeat(auto-fill, 40px);
     }
 
 }

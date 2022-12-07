@@ -2,11 +2,27 @@
     color: black;
     background-color: white;
     padding: 50px;
+    font-size: 1.2em;
+    height: fit-content;
+
+    .fade {
+        animation: fadeIn 2s;
+    }
+
+    .opaque {
+        opacity: 1;
+    }
+
+    .translucide {
+        opacity: 0.1;
+    }
 
     .button-row {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        padding-top: 30px;
+        column-gap: 1%;
 
         button {
             background-color: transparent;
@@ -15,6 +31,7 @@
         }
 
         .display {
+            animation: fadeIn 2s;
             position: absolute;
             z-index: 1;
             background: whitesmoke;

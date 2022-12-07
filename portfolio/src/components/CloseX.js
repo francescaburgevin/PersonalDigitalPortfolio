@@ -16,6 +16,7 @@ const CloseX = () => {
     function hideModal() {
         document.querySelector(".intro-mod").classList.remove("show");
         document.querySelector(".edu-mod").classList.remove("show");
+        document.querySelector(".fade").classList.remove("translucide");
     };
 
 

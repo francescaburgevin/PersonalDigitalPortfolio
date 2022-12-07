@@ -130,39 +130,46 @@ const projects = {
 const assos = {
   data: [
     {
-      logo: "/images/roma_large.png",
+      logo: "/images/3WA.png",
       name: "3W Academy",
-      link: "http"
+      link: "https://3wa.fr/formation-conventionnee-pole-emploi/",
+      title: "lien vers Développeur Web de 3WA"
     },
     {
-      logo: "/images/roma_large.png",
+      logo: "/images/google_analytics.png",
       name: "Google Analytics",
-      link: "http"
+      link: "https://analytics.google.com",
+      title: "lien vers Google Analytics"
     },
     {
-      logo: "/images/roma_large.png",
-      name: "CEGEFOS",
-      link: "http"
+      logo: "/images/cna.png",
+      name: "CEGEFOS Numérique Academy",
+      link: "https://www.cegefos.com/integration-e-commerce/",
+      title: "lien vers Intégration E-Commerce de CNA"
     },
     {
-      logo: "/images/roma_large.png",
+      logo: "/images/ptits_heros.png",
       name: "Les P'tits Héros",
-      link: "http"
+      link: "https://lesptitsheros.fr/",
+      title: "lien vers Les P'tits Héros"
     },
     {
-      logo: "/images/roma_large.png",
+      logo: "/images/efs.png",
       name: "EFS",
-      link: "http"
+      link: "https://dondesang.efs.sante.fr",
+      title: "lien vers l'Etablissement français du sang"
     },
     {
-      logo: "/images/roma_large.png",
+      logo: "/images/opera.png",
       name: "Opéra de Bordeaux",
-      link: "http"
+      link: "https://www.opera-bordeaux.com",
+      title: "lien vers l'Opéra de Bordeaux"
     },
     {
-      logo: "/images/roma_large.png",
+      logo: "/images/wset.png",
       name: "Wine Spirit Education Trust",
-      link: "http"
+      link: "https://www.wsetglobal.com/fr/french-qualifications/level-3-award-in-wines-fr/",
+      title: "lien vers WSET niveau 3"
     }
   ]
 };

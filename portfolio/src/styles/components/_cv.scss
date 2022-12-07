@@ -1,10 +1,12 @@
 .cv-section {
     display: flex;
+    padding-bottom: 50px;
 
     .cv {
         img {
             width: 100%;
             min-width: 600px;
+            max-height: 100vh;
             box-shadow: 1px 2px 3px gray;
         }
     }
@@ -25,17 +27,30 @@
     }
 }
 
-.assos-list {
-    text-align: center;
-    font-size: 0.8em;
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    column-gap: 1em;
+    padding-bottom: 2em;
 
-    img {
-        width: 40px;
-        height: 40px;
-    }
+    .assos-list {
+        text-align: center;
+        font-size: 0.8em;
+        width: 6em;
 
-    h2 {
-        margin: 0px;
-        color: white;
+        h3 {
+            margin: 8px 0 2px 0;
+            color: white;
+            font-size: 0.8em;
+            text-align: center;
+            padding: 3px;
+            background-image: url("/assets/images/sidebar_black.png");
+        }
+
+        img {
+            width: 60px;
+            height: 60px;
+        }
     }
 }

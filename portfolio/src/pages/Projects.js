@@ -8,6 +8,7 @@ const Projects = () => {
   return (
     <div className="page-split white">
       <Sidebar />
+      <div className="left-hidden"></div>
 
       <div className="right-side">
 
