@@ -1,4 +1,5 @@
 @media screen and (max-width: 1200px) {
+
     .cv-section {
         flex-direction: row;
         flex-wrap: wrap;
@@ -8,4 +9,202 @@
             justify-content: unset;
         }
     }
+
+    .project-card {
+        flex-direction: column;
+
+    }
+
+    .project-card .right img {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-position: top;
+    }
+
+    .page-split {
+        flex-direction: column;
+
+        .left-side {
+            height: max-content;
+            width: 100%;
+            min-width: none;
+            padding: 20px;
+            padding-bottom: 20px;
+            text-align: start;
+            display: flex;
+            flex-direction: row;
+            position: unset;
+
+            .figure {
+                .title {
+                    text-align: start;
+                    align-items: flex-start;
+
+                    .avatar img {
+                        width: 60%;
+                    }
+                }
+
+                .network-icons {
+                    justify-content: flex-start;
+                }
+            }
+
+
+            .nav-list {
+                text-align: center;
+            }
+
+            .contact-list {
+                text-align: right;
+            }
+
+        }
+
+        .left-hidden {
+            display: none;
+        }
+
+        .right-side {
+            align-self: center;
+            width: 80%;
+        }
+
+    }
+
+    .bk-adapt .button-row .display {
+        top: 30%;
+        width: 80%;
+    }
+
+    .links {
+        align-items: flex-end;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        background-image: none;
+        background-color: white;
+    }
+
+    .page-split {
+        flex-direction: column;
+
+        .left-side {
+            background-image: url("/assets/images/bk_mobile.png");
+            background-position: center;
+            height: fit-content;
+            width: 100%;
+            min-width: none;
+            padding: 20px;
+            flex-direction: column;
+            align-items: flex-end;
+            position: unset;
+
+            .figure {
+                .title {
+                    text-align: end;
+                    align-items: flex-end;
+
+                    .avatar img {
+                        width: 80%;
+                    }
+                }
+
+                .network-icons {
+                    justify-content: flex-end;
+                }
+            }
+
+
+            .nav-list {
+                text-align: end;
+            }
+
+            .contact-list {
+                text-align: start;
+            }
+        }
+
+        .left-hidden {
+            display: none;
+        }
+
+        .right-side {
+            background-color: white;
+            margin-top: 30px;
+            align-self: center;
+            width: 100%;
+        }
+
+    }
+
+    .navigation {
+        align-self: flex-end;
+    }
+
+    .contact-section {
+        align-self: flex-start;
+    }
+
+    .contact {
+        margin-top: 0;
+        align-self: flex-start;
+
+        ul li a {
+            padding: 0px;
+        }
+    }
+
+    .home-text {
+        background-color: white;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .cv-section .cv img {
+        min-width: 0px;
+        padding: 10px;
+        box-shadow: none;
+    }
+
+    .links {
+        padding: 16px;
+    }
+
+    .project-title {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .project-card {
+        flex-direction: column-reverse;
+
+        .left {
+            min-width: 0px;
+
+        }
+
+        .right img {
+            margin-bottom: 20px;
+        }
+    }
+
+    .techs-list {
+        column-gap: 3px;
+        margin-bottom: 20px;
+
+        p {
+            margin-top: 5px;
+            font-size: 0.8em;
+        }
+    }
+
+
 }

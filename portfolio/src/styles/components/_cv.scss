@@ -11,8 +11,8 @@
         }
     }
 
-    .cv-options {
-        margin: 0;
+    .cv-download {
+        margin: 10px;
         text-align: center;
 
         a {
@@ -30,27 +30,29 @@
 .links {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: start;
     column-gap: 1em;
     padding-bottom: 2em;
+    //background-color: black;
+
+    h3 {
+        color: black;
+        text-align: center;
+    }
 
     .assos-list {
         text-align: center;
         font-size: 0.8em;
-        width: 6em;
+        width: 100%;
 
         h3 {
             margin: 8px 0 2px 0;
-            color: white;
-            font-size: 0.8em;
+            color: black;
+            font-size: 1.2em;
             text-align: center;
-            padding: 3px;
-            background-image: url("/assets/images/sidebar_black.png");
-        }
-
-        img {
-            width: 60px;
-            height: 60px;
+            cursor: pointer;
+            //background-image: url("/assets/images/sidebar_black.png");
         }
     }
 }

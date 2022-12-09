@@ -5,7 +5,7 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Figure = () => {
     return (
-        <section>
+        <section className='figure'>
             <div className='title'>
                 <Avatar />
                 <h2>Francesca</h2>

@@ -18,26 +18,26 @@ const CV = () => {
         <div className="cv-section">
 
           <div className='cv'>
-            <img src={CVimage} alt='cv' />
+            <img src={CVimage} alt='cv francesca burgevin' />
           </div>
 
-          <div className="cv-options">
+          <div className="cv-download">
             <a href={CVfile} download><img src={CVdownload} alt='cv' /></a>
           </div>
 
           <div className="links">
+            <h3>LIENS</h3>
             {assos.data.map((asso, index) => {
               return (
                 <div>
                   <a href={asso.link} title={asso.title} target="_blank" rel="noopener noreferrer">
                     <div className="assos-list" key={index}>
                       <h3>{asso.name}</h3>
-                      <img src={asso.logo} alt={asso.name} />
                     </div>
                   </a>
                 </div>
               )
-            })};
+            })}
 
           </div>
 

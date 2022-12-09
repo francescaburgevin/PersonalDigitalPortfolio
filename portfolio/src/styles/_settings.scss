@@ -33,12 +33,12 @@ $white: rgb(243, 243, 243);
 }
 
 body {
-    background: white;
+    background: black;
     color: $color-1;
     font-family: $font-regular;
     background-image: url("../assets/images/bourse.png");
     background-repeat: no-repeat;
-    object-fit: cover;
+    background-position: center;
 }
 
 h1 {
@@ -67,10 +67,6 @@ a {
 .column {
     display: flex;
     flex-direction: column;
-}
-
-.align-end {
-    justify-content: flex-end;
 }
 
 .align-center {
@@ -118,6 +114,7 @@ a {
 
     p {
         margin-bottom: 15px;
+        color: black;
     }
 }
 

@@ -3,8 +3,8 @@ import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
     return (
-        <section>
-            <div className="navigation">
+        <section className='navigation'>
+            <div className="nav-list">
                 <ul>
                     <NavLink to="/">
                         <li>Accueil</li>

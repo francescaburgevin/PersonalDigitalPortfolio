@@ -133,43 +133,43 @@ const assos = {
       logo: "/images/3WA.png",
       name: "3W Academy",
       link: "https://3wa.fr/formation-conventionnee-pole-emploi/",
-      title: "lien vers Développeur Web de 3WA"
+      title: "Développeur Web de 3WA"
     },
     {
       logo: "/images/google_analytics.png",
       name: "Google Analytics",
       link: "https://analytics.google.com",
-      title: "lien vers Google Analytics"
+      title: "Google Analytics"
     },
     {
       logo: "/images/cna.png",
       name: "CEGEFOS Numérique Academy",
       link: "https://www.cegefos.com/integration-e-commerce/",
-      title: "lien vers Intégration E-Commerce de CNA"
+      title: "Intégration E-Commerce de CNA"
     },
     {
       logo: "/images/ptits_heros.png",
       name: "Les P'tits Héros",
       link: "https://lesptitsheros.fr/",
-      title: "lien vers Les P'tits Héros"
+      title: "Les P'tits Héros"
     },
     {
       logo: "/images/efs.png",
       name: "EFS",
       link: "https://dondesang.efs.sante.fr",
-      title: "lien vers l'Etablissement français du sang"
+      title: "Etablissement français du sang"
     },
     {
       logo: "/images/opera.png",
       name: "Opéra de Bordeaux",
       link: "https://www.opera-bordeaux.com",
-      title: "lien vers l'Opéra de Bordeaux"
+      title: "Opéra de Bordeaux"
     },
     {
       logo: "/images/wset.png",
       name: "Wine Spirit Education Trust",
       link: "https://www.wsetglobal.com/fr/french-qualifications/level-3-award-in-wines-fr/",
-      title: "lien vers WSET niveau 3"
+      title: "WSET niveau 3"
     }
   ]
 };

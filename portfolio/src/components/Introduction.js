@@ -1,6 +1,5 @@
 import React from 'react';
 import Title from '../components/CustomTitle';
-import CloseX from './CloseX';
 
 
 const Introduction = () => {
@@ -9,7 +8,6 @@ const Introduction = () => {
 
     return (
         <section>
-            <CloseX />
             <div className='introduction'>
                 <div className='text-field'>
 

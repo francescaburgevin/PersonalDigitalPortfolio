@@ -40,23 +40,27 @@ const Offer = () => {
             </a>
           </div>
 
-          <button onClick={showIntro} title="Brève introduction perso">
-            <Button label={"A propos de moi"}>
-            </Button>
-          </button>
-
           <div className="intro-mod display hide" >
             <Introduction />
           </div>
+          <button id="default-propos-btn" onClick={showIntro} title="Brève introduction perso">
+            <Button label={"A propos de moi"}>
+            </Button>
+          </button>
+          <a id="mobile" href="/propos">
+            <Button label={"A propos de moi"}>
+            </Button>
+          </a>
 
+
+          <div className="edu-mod display hide" >
+            <Education />
+          </div>
           <button id="btn-edu" onClick={showEdu} title="Une explication de la formation">
             <Button label={"La formation 3WA"}>
             </Button>
           </button>
 
-          <div className="edu-mod display hide" >
-            <Education />
-          </div>
 
         </div>
       </div>

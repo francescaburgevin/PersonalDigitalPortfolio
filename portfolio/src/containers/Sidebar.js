@@ -5,11 +5,11 @@ import Contact from '../components/Contact';
 
 const Sidebar = () => {
     return (
-        <div className="lite-bg-prime-color left-side">
+        <nav className="lite-bg-prime-color left-side">
             <Figure />
             <Navigation />
             <Contact />
-        </div>
+        </nav>
     );
 };
 
