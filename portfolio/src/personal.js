@@ -60,8 +60,8 @@ const projects = {
       projectTitle: "Portfolio Digital",
       projectThumbnail: "/images/portfolio_large.png",
       projectBaseline: "Une carte de visite",
-      projectDescription: "3 pages pour me présenter : A propos, CV et Projets.",
-      projectPoints: ["responsive design", "API vers GitHub Repo"],
+      projectDescription: "3 pages pour me présenter : A propos, CV et Projets. Mon premier projet en React (autodidacte)",
+      projectPoints: ["responsive design", "API vers GitHub Repo", "autodidacte"],
       projectTechs: ["HTML", "SCSS", "React.js"]
     },
     {
@@ -71,7 +71,7 @@ const projects = {
       projectThumbnail: "/images/tip_large.png",
       projectBaseline: "Calculatrice de gratuité Etats-Unis",
       projectDescription: "Un challenge Frontend Mentor. Mon premier projet en JavaScript en autodidacte.",
-      projectPoints: ["Frontend Mentor", "calculs"],
+      projectPoints: ["Frontend Mentor", "calculs", "class", "onclick"],
       projectTechs: ["HTML", "CSS", "JavaScript"]
     },
     {
@@ -81,7 +81,7 @@ const projects = {
       projectThumbnail: "/images/montessori_large.png",
       projectBaseline: "Garder le lien entre parents et école.",
       projectDescription: "Un site et un feed privé comme projet de fin de formation. Le feed permet de partager des images et des annonces avec les parents. Plusieurs tables, complexité des tables croisées, contrôles de sécurité au login et sur chaque page sensible.",
-      projectPoints: ["responsive design", "mobile-first", "MVC", "CRUD", "espace privée", "login"],
+      projectPoints: ["responsive design", "mobile-first", "MVC", "CRUD", "espace privée", "login", "database"],
       projectTechs: ["HTML", "CSS", "Javascript", "PHP", "MySQL"]
     },
     {
@@ -91,7 +91,7 @@ const projects = {
       projectThumbnail: "/images/roma_large.png",
       projectBaseline: "Revenir à soi-même",
       projectDescription: "Un site d'un centre de bien-être. Projet réalisé en trinôme avec 2 élèves du cours. J'ai codé pour la première fois avec JSON pour passer les informations entre les pages. Création d'une page login.",
-      projectPoints: ["responsive design", "login avec système de sécurité", "panier"],
+      projectPoints: ["responsive design", "login avec système de sécurité", "panier", "JSON", "local storage"],
       projectTechs: ["HTML", "CSS", "JavaScript"]
     },
     {
@@ -121,7 +121,7 @@ const projects = {
       projectThumbnail: "/images/fibonacci_large.png",
       projectBaseline: "Calculer l'ensemble de rangs.",
       projectDescription: "En mathématiques, la suite de Fibonacci est une suite d'entiers dans laquelle chaque terme est la somme des deux termes qui le précèdent.",
-      projectPoints: ["algorithme"],
+      projectPoints: ["algorithme", "rangs de couleurs différentes"],
       projectTechs: ["HTML", "CSS", "JavaScript"]
     }
   ]

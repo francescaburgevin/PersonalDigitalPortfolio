@@ -34,13 +34,14 @@
 
         .display {
             animation: fadeIn 2s;
-            //position: absolute;
+            position: absolute;
             z-index: 1;
             background: whitesmoke;
             box-shadow: 1px 2px 3px darkgrey;
-            margin: 0;
+            margin: 0px;
             padding: 50px;
             width: 60%;
+            height: fit-content;
             top: 15%;
         }
     }

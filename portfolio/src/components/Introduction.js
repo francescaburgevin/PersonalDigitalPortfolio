@@ -7,7 +7,7 @@ const Introduction = () => {
 
 
     return (
-        <section>
+        <section className='intro-section'>
             <div className='introduction'>
                 <div className='text-field'>
 

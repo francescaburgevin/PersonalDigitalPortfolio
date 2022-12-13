@@ -6,18 +6,20 @@ import OffreServices from "../components/OffreServices";
 import Education from "../components/Education";
 import Button from "../components/CustomButton";
 import CVfile from "../assets/files/cv_burgevin_nov_22.pdf";
+import CloseX from "../components/CloseX";
 
 const Offer = () => {
 
   function showIntro() {
     document.querySelector(".intro-mod").classList.toggle("show");
-    document.getElementById("btn").disabled = true;
     document.querySelector(".fade").classList.toggle("translucide");
+    document.querySelector(".intro-mod").scrollIntoView({ block: "start" });
   };
 
   function showEdu() {
     document.querySelector(".edu-mod").classList.toggle("show");
     document.querySelector(".fade").classList.toggle("translucide");
+    document.querySelector(".edu-mod").scrollIntoView({ block: "start" });
   };
 
   return (
@@ -40,26 +42,23 @@ const Offer = () => {
             </a>
           </div>
 
-          <div className="intro-mod display hide" >
-            <Introduction />
-          </div>
           <button id="default-propos-btn" onClick={showIntro} title="Brève introduction perso">
             <Button label={"A propos de moi"}>
             </Button>
           </button>
-          <a id="mobile" href="/propos">
-            <Button label={"A propos de moi"}>
-            </Button>
-          </a>
-
-
-          <div className="edu-mod display hide" >
-            <Education />
+          <div className="intro-mod display hide" >
+            <CloseX />
+            <Introduction />
           </div>
+
           <button id="btn-edu" onClick={showEdu} title="Une explication de la formation">
             <Button label={"La formation 3WA"}>
             </Button>
           </button>
+          <div className="edu-mod display hide" >
+            <CloseX />
+            <Education />
+          </div>
 
 
         </div>

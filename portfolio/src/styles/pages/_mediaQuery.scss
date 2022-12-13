@@ -206,5 +206,20 @@
         }
     }
 
+    .bk-adapt .button-row .display {
+
+        width: 100%;
+        top: 0;
+        position: relative;
+        z-index: unset;
+        padding: 10px;
+        box-shadow: none;
+
+    }
+
+    .intro-section,
+    .edu-section {
+        margin-top: 50px;
+    }
 
 }

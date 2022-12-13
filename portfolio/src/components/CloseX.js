@@ -9,6 +9,7 @@ const divStyle = {
 const xStyle = {
     cursor: "pointer",
     fontSize: "large",
+    color: "gray"
 }
 
 const CloseX = () => {
@@ -22,7 +23,7 @@ const CloseX = () => {
 
     return (
         <div style={divStyle}>
-            <button style={xStyle} onClick={hideModal}>X</button>
+            <button style={xStyle} onClick={hideModal}>fermer</button>
         </div>
     );
 };

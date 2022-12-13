@@ -1,11 +1,9 @@
 import React from 'react';
-import CloseX from './CloseX';
 import Title from './CustomTitle';
 
 const Education = () => {
     return (
-        <section>
-            <CloseX />
+        <section className='edu-section'>
             <div className='education'>
                 <div className='text-field'>
                     <Title label={"Développeur Web Full Stack"}></Title>
