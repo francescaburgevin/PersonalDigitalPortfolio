@@ -8,17 +8,19 @@
 }
 
 .techs-list {
+    -webkit-column-gap: 10px;
+    column-gap: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 10px;
 }
 
 .repo-card-div {
-    width: 90px;
-    height: max-content;
-    border: 1px solid $color-1;
+    border: 1px solid #02989d;
     border-radius: 8px;
+    height: -webkit-max-content;
+    height: max-content;
+    width: 90px
 }
 
 .project-card {
@@ -29,9 +31,14 @@
         min-width: 300px;
     }
 
+    .right {
+        max-width: 60%;
+        min-width: 60%
+    }
+
     img {
-        width: 100%;
-        box-shadow: 1px 2px 3px grey;
+        box-shadow: 1px 2px 3px gray;
         margin-left: 20px;
+        width: 100%
     }
 }

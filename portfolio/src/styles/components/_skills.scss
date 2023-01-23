@@ -1,15 +1,16 @@
 .skills {
-
     h2 {
-        color: $color-2;
-        margin-bottom: 30px;
+        color: #002d2e;
+        margin-bottom: 30px
     }
 
     .skills-list {
-        //width: 80%;
         display: grid;
-        //grid-gap: 1rem;
-        grid-template-columns: repeat(auto-fill, 40px);
+        grid-template-columns: repeat(auto-fill, 104px)
     }
 
+    .column {
+        align-items: center;
+        color: #000
+    }
 }

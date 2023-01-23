@@ -1,6 +1,6 @@
 import React from "react";
 import Sidebar from "../containers/Sidebar";
-import CVfile from "../assets/files/cv_burgevin_nov_22.pdf";
+import CVfile from "../assets/files/CV_Francesca_Burgevin_DevWeb.pdf";
 import Button from "../components/CustomButton";
 
 const Home = () => {

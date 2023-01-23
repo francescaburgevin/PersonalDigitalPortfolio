@@ -5,7 +5,7 @@ import Introduction from "../components/Introduction";
 import OffreServices from "../components/OffreServices";
 import Education from "../components/Education";
 import Button from "../components/CustomButton";
-import CVfile from "../assets/files/cv_burgevin_nov_22.pdf";
+import CVfile from "../assets/files/CV_Francesca_Burgevin_DevWeb.pdf";
 import CloseX from "../components/CloseX";
 
 const Offer = () => {

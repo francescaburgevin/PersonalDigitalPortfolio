@@ -30,7 +30,7 @@ const skills = {
       skillLogo: logoMySql,
     },
     {
-      skillName: "ReactJS",
+      skillName: "React.JS",
       skillLogo: "https://camo.githubusercontent.com/48d099290b4cb2d7937bcd96e8497cf1845b54a810a6432c70cf944b60b40c77/68747470733a2f2f7261776769742e636f6d2f676f72616e67616a69632f72656163742d69636f6e732f6d61737465722f72656163742d69636f6e732e737667",
     },
     {
@@ -46,8 +46,60 @@ const skills = {
       skillLogo: logoSymfony,
     },
     {
+      skillName: "WordPress",
+      skillLogo: "#",
+    },
+    {
       skillName: "GitHub",
       skillLogo: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+    },
+    {
+      skillName: "Clouds",
+      skillLogo: "",
+    },
+    {
+      skillName: "phpMyAdmin",
+      skillLogo: "",
+    },
+    {
+      skillName: "Docker",
+      skillLogo: "",
+    },
+    {
+      skillName: "Lunacy",
+      skillLogo: "",
+    },
+    {
+      skillName: "Figma",
+      skillLogo: "",
+    },
+    {
+      skillName: "Avid",
+      skillLogo: "",
+    },
+    {
+      skillName: "Jest",
+      skillLogo: "",
+    },
+    {
+      skillName: "Enzyme",
+      skillLogo: "",
+    },
+    {
+      skillName: "VS Code",
+      skillLogo: "",
+    },
+    {
+      skillName: "Unix",
+      skillLogo: "",
+    },
+    {
+      skillName: "PrimeNG",
+      skillLogo: "",
+    },
+    {
+      skillName: "Bootstrap",
+      skillLogo: "",
     }
   ]
 };
@@ -62,7 +114,7 @@ const projects = {
       projectBaseline: "Une carte de visite",
       projectDescription: "3 pages pour me présenter : A propos, CV et Projets. Mon premier projet en React (autodidacte)",
       projectPoints: ["responsive design", "API vers GitHub Repo", "autodidacte"],
-      projectTechs: ["HTML", "SCSS", "React.js"]
+      projectTechs: ["HTML", "SCSS", "React.js", "Docker", "Jest", "Enzyme"]
     },
     {
       repoUsername: "francescaburgevin",
