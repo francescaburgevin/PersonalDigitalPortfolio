@@ -1,5 +1,6 @@
 {
-  "name": "portfolio",
+  "name": "francescaburgevin-portfolio",
+  "homepage": "https://francescaburgevin.fr/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
