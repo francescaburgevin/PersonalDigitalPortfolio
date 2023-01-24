@@ -65,7 +65,9 @@ function ProjectCard({ repo }) {
                     })}
                 </ul>
 
-                <a target="_blank" rel="noopener noreferrer" href={repo.repo.html_url}> <ProjectLink label={"Lien"}></ProjectLink></a>
+                <a target="_blank" rel="noopener noreferrer" href={repo.repo.html_url}>
+                    <ProjectLink label={"Lien"}></ProjectLink>
+                </a>
                 <p>Propriétaire : {repo.repo.owner.login}</p>
                 <p>Repository : {repo.repo.name}</p>
                 <p>Dernier push : {getDate(repo.repo.pushed_at)}</p>
@@ -81,17 +83,11 @@ function ProjectCard({ repo }) {
             </div>
 
             <div className="right">
-
-
-
                 <img src={(isSame(repo).image)} alt="project thumbnail" />
             </div>
 
         </div>
     );
-
 }
 
 export default ProjectCard;
-
-//(<ProjectThumbnail name={repo.repo.name} />)

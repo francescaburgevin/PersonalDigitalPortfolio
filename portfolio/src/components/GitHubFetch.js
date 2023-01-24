@@ -4,7 +4,6 @@ import axios from 'axios';
 import { useState, useEffect } from "react";
 import ProjectCard from './ProjectCard';
 
-
 function GitHubFetch() {
     const [repos, setRepos] = useState([])
 
@@ -13,7 +12,7 @@ function GitHubFetch() {
     }, [])
 
     const fetchRepos = async () => {
-        const response = await axios.get("https://api.github.com/users/francescaburgevin/repos")
+        const response = await axios.get("https://api.github.com/users/francescaburgevin/repos");
         setRepos(response.data);
     }
 

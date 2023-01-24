@@ -108,6 +108,15 @@ const projects = {
   data: [
     {
       repoUsername: "francescaburgevin",
+      projectRepo: "JavaFirstLook",
+      projectTitle: "Premier Projet Java",
+      projectThumbnail: "/images/under_construction.jpg",
+      projectBaseline: "Liste de projets DIY, By You",
+      projectDescription: "Premier projet avec Java / Spring Boot (autodidacte)",
+      projectPoints: ["responsive design", "construction API", "autodidacte"],
+      projectTechs: ["HTML", "SCSS", "Angular", "Java", "Spring Boot", "API"]
+    }, {
+      repoUsername: "francescaburgevin",
       projectRepo: "PersonalDigitalPortfolio",
       projectTitle: "Portfolio Digital",
       projectThumbnail: "/images/portfolio_large.png",
