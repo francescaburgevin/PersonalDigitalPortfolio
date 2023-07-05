@@ -7,6 +7,7 @@ import Education from "../components/Education";
 import Button from "../components/CustomButton";
 import CVfile from "../assets/files/CV_Francesca_Burgevin_DevWeb.pdf";
 import CloseX from "../components/CloseX";
+import POEi from "../components/POEi";
 
 const Offer = () => {
 
@@ -20,6 +21,12 @@ const Offer = () => {
     document.querySelector(".edu-mod").classList.toggle("show");
     document.querySelector(".fade").classList.toggle("translucide");
     document.querySelector(".edu-mod").scrollIntoView({ block: "start" });
+  };
+
+  function showPOEi() {
+    document.querySelector(".poei-mod").classList.toggle("show");
+    document.querySelector(".fade").classList.toggle("translucide");
+    document.querySelector(".poei-mod").scrollIntoView({ block: "start" });
   };
 
   return (
@@ -60,6 +67,14 @@ const Offer = () => {
             <Education />
           </div>
 
+          <button id="btn-poei" onClick={showPOEi} title="Une explication de la formation">
+            <Button label={"La POEi Aélion"}>
+            </Button>
+          </button>
+          <div className="poei-mod display hide" >
+            <CloseX />
+            <POEi />
+          </div>
 
         </div>
       </div>

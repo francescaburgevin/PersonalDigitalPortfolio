@@ -27,11 +27,11 @@ const CV = () => {
 
           <div className="links">
             <h3>LIENS</h3>
-            {assos.data.map((asso, index) => {
+            {assos.data.map((asso) => {
               return (
-                <div>
+                <div  key={asso.id}>
                   <a href={asso.link} title={asso.title} target="_blank" rel="noopener noreferrer">
-                    <div className="assos-list" key={index}>
+                    <div className="assos-list">
                       <h3>{asso.name}</h3>
                     </div>
                   </a>

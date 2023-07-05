@@ -17,15 +17,13 @@ const cardStyle = {
 function ProjectCard({ repo }) {
 
     const isSame = (apiRepo) => {
-        let repoName = apiRepo.repo.name;
-        let localData = projects.data;
-
-        localData.map((local) => (
-            repoName === local.projectRepo ?
-                apiRepo.repo = mergeRepo(apiRepo.repo, local)
-                : null
-        ))
-        return apiRepo.repo;
+        let localData = projects.data; 
+        localData.map((local) => {
+            if ( local.projectRepo === apiRepo.name ){
+                return apiRepo = mergeRepo(apiRepo, local)
+            }
+    })
+        return apiRepo;
     }
 
     const mergeRepo = (api, local) => {
@@ -53,29 +51,29 @@ function ProjectCard({ repo }) {
         <div style={cardStyle} className="project-card">
 
             <div className="left">
-                <ProjectTitle label={repo.repo.title}></ProjectTitle>
-                <ProjectBaseline label={repo.repo.baseline}></ProjectBaseline>
+                <ProjectTitle label={repo.title}></ProjectTitle>
+                <ProjectBaseline label={repo.baseline}></ProjectBaseline>
                 <p>{isSame(repo).description}</p>
 
                 <ul className='points-list'>
-                    {repo.repo.points.map((point) => {
+                    {repo.points.map((point) => {
                         return (
                             <ProjectPoints label={point}></ProjectPoints>
                         )
                     })}
                 </ul>
 
-                <a target="_blank" rel="noopener noreferrer" href={repo.repo.html_url}>
+                <a target="_blank" rel="noopener noreferrer" href={repo.html_url}>
                     <ProjectLink label={"Lien"}></ProjectLink>
                 </a>
-                <p>Propriétaire : {repo.repo.owner.login}</p>
-                <p>Repository : {repo.repo.name}</p>
-                <p>Dernier push : {getDate(repo.repo.pushed_at)}</p>
+                <p>Propriétaire : {repo.owner.login}</p>
+                <p>Repository : {repo.name}</p>
+                <p>Dernier push : {getDate(repo.pushed_at)}</p>
 
                 <div className='techs-list'>
-                    {repo.repo.techs.map((tech) => {
+                    {repo.techs.map((tech) => {
                         return (
-                            <ProjectTechs label={tech}></ProjectTechs>
+                            <ProjectTechs label={tech} ></ProjectTechs>
                         )
                     })}
                 </div>

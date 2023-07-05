@@ -14,7 +14,7 @@ const Home = () => {
         <h1>ACCUEIL</h1>
 
         <div className="home-text">
-          <p>Une développeuse web full-stack avec 14 ans d'expériences en Marketing et une formation intensive acquise de Développeur intégrateur en réalisation d’applications web.</p>
+          <p>Ingénieure de production DevOps et Développeuse Web Full-Stack avec +10 ans d'expériences en pilotage de projets Business-to-Client.</p>
           <p>Débrouillarde, aimant le goût du challenge, je vise un travail fait en autonomie, propre et complet.</p>
 
           <div className="button">

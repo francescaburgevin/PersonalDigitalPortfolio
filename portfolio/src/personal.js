@@ -1,25 +1,8 @@
-import logoAngular from "./icons/logo_angular.png";
-import logoMySql from "./icons/logo_mysql.png";
-import logoSymfony from "./icons/logo_symfony.png";
-
-
 const skills = {
   data: [
     {
-      skillName: "HTML5",
-      skillLogo: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-    },
-    {
-      skillName: "CSS3",
-      skillLogo: "https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg",
-    },
-    {
-      skillName: "Sass",
-      skillLogo: "https://www.vectorlogo.zone/logos/sass-lang/sass-lang-icon.svg",
-    },
-    {
       skillName: "JavaScript",
-      skillLogo: "https://www.kindpng.com/picc/m/67-678384_transparent-javascript-icon-png-png-download.png",
+      skillLogo: "https://www.vectorlogo.zone/logos/php/php-icon.svg",
     },
     {
       skillName: "PHP",
@@ -27,7 +10,7 @@ const skills = {
     },
     {
       skillName: "MySQL",
-      skillLogo: logoMySql,
+      skillLogo: "#",
     },
     {
       skillName: "React.JS",
@@ -39,14 +22,18 @@ const skills = {
     },
     {
       skillName: "Angular",
-      skillLogo: logoAngular,
+      skillLogo: "#",
     },
     {
-      skillName: "Symfony",
-      skillLogo: logoSymfony,
+      skillName: "Java",
+      skillLogo: "#",
     },
     {
-      skillName: "WordPress",
+      skillName: "Bash",
+      skillLogo: "#",
+    },
+    {
+      skillName: "PowerShell",
       skillLogo: "#",
     },
     {
@@ -54,11 +41,11 @@ const skills = {
       skillLogo: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
     },
     {
-      skillName: "Clouds",
-      skillLogo: "",
+      skillName: "GitLab",
+      skillLogo: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
     },
     {
-      skillName: "phpMyAdmin",
+      skillName: "Cloud Azure",
       skillLogo: "",
     },
     {
@@ -66,39 +53,31 @@ const skills = {
       skillLogo: "",
     },
     {
-      skillName: "Lunacy",
+      skillName: "Jenkins",
       skillLogo: "",
     },
     {
-      skillName: "Figma",
+      skillName: "Ansible",
       skillLogo: "",
     },
     {
-      skillName: "Avid",
+      skillName: "Kubernetes",
       skillLogo: "",
     },
     {
-      skillName: "Jest",
+      skillName: "Maven",
       skillLogo: "",
     },
     {
-      skillName: "Enzyme",
+      skillName: "SQL",
       skillLogo: "",
     },
     {
-      skillName: "VS Code",
+      skillName: "Oracle DB",
       skillLogo: "",
     },
     {
-      skillName: "Unix",
-      skillLogo: "",
-    },
-    {
-      skillName: "PrimeNG",
-      skillLogo: "",
-    },
-    {
-      skillName: "Bootstrap",
+      skillName: "VM Ware",
       skillLogo: "",
     }
   ]
@@ -107,6 +86,7 @@ const skills = {
 const projects = {
   data: [
     {
+      id: 1,
       repoUsername: "francescaburgevin",
       projectRepo: "JavaFirstLook",
       projectTitle: "Premier Projet Java",
@@ -114,18 +94,21 @@ const projects = {
       projectBaseline: "Liste de projets DIY, By You",
       projectDescription: "Premier projet avec Java / Spring Boot (autodidacte)",
       projectPoints: ["responsive design", "construction API", "autodidacte"],
-      projectTechs: ["HTML", "SCSS", "Angular", "Java", "Spring Boot", "API"]
-    }, {
+      projectTechs: ["HTML", "SCSS", "Angular", "Java", "Spring Boot", "API", "PostgreSQL"]
+    }, 
+    {
+      id: 2,
       repoUsername: "francescaburgevin",
       projectRepo: "PersonalDigitalPortfolio",
       projectTitle: "Portfolio Digital",
       projectThumbnail: "/images/portfolio_large.png",
       projectBaseline: "Une carte de visite",
       projectDescription: "3 pages pour me présenter : A propos, CV et Projets. Mon premier projet en React (autodidacte)",
-      projectPoints: ["responsive design", "API vers GitHub Repo", "autodidacte"],
-      projectTechs: ["HTML", "SCSS", "React.js", "Docker", "Jest", "Enzyme"]
+      projectPoints: ["responsive design", "API vers GitHub Repos", "autodidacte"],
+      projectTechs: ["HTML", "SCSS", "React.js", "API GitHub"]
     },
     {
+      id: 3,
       repoUsername: "francescaburgevin",
       projectRepo: "TipCalculatorUSA",
       projectTitle: "Premier Projet JS",
@@ -136,6 +119,7 @@ const projects = {
       projectTechs: ["HTML", "CSS", "JavaScript"]
     },
     {
+      id: 4,
       repoUsername: "francescaburgevin",
       projectRepo: "Montessori",
       projectTitle: "Montessori",
@@ -146,6 +130,7 @@ const projects = {
       projectTechs: ["HTML", "CSS", "Javascript", "PHP", "MySQL"]
     },
     {
+      id: 5,
       repoUsername: "francescaburgevin",
       projectRepo: "RomaSpa",
       projectTitle: "Centre de bien-être de luxe: Roma",
@@ -156,6 +141,7 @@ const projects = {
       projectTechs: ["HTML", "CSS", "JavaScript"]
     },
     {
+      id: 6,
       repoUsername: "francescaburgevin",
       projectRepo: "AngularFirstLook",
       projectTitle: "Premier Projet Angular",
@@ -166,6 +152,7 @@ const projects = {
       projectTechs: ["HTML", "CSS", "TypeScript"]
     },
     {
+      id: 7,
       repoUsername: "francescaburgevin",
       projectRepo: "PHPBlogFirstLook",
       projectTitle: "Premier Projet PHP",
@@ -176,6 +163,7 @@ const projects = {
       projectTechs: ["HTML", "CSS", "PHP"]
     },
     {
+      id: 8,
       repoUsername: "francescaburgevin",
       projectRepo: "Fibonacci",
       projectTitle: "Fibonacci",
@@ -191,42 +179,56 @@ const projects = {
 const assos = {
   data: [
     {
+      id: 1,
       logo: "/images/3WA.png",
       name: "3W Academy",
       link: "https://3wa.fr/formation-conventionnee-pole-emploi/",
       title: "Développeur Web de 3WA"
     },
     {
-      logo: "/images/google_analytics.png",
-      name: "Google Analytics",
-      link: "https://analytics.google.com",
-      title: "Google Analytics"
+      id: 2,
+      logo: "#",
+      name: "Aélion",
+      link: "https://www.aelion.fr/",
+      title: "POEi Ingénieur de production de Aélion",
     },
     {
+      id: 3,
       logo: "/images/cna.png",
       name: "CEGEFOS Numérique Academy",
       link: "https://www.cegefos.com/integration-e-commerce/",
       title: "Intégration E-Commerce de CNA"
     },
     {
-      logo: "/images/ptits_heros.png",
-      name: "Les P'tits Héros",
-      link: "https://lesptitsheros.fr/",
-      title: "Les P'tits Héros"
-    },
-    {
+      id: 4,
       logo: "/images/efs.png",
       name: "EFS",
       link: "https://dondesang.efs.sante.fr",
       title: "Etablissement français du sang"
     },
     {
+      id: 5,
+      logo: "/images/google_analytics.png",
+      name: "Google Analytics",
+      link: "https://analytics.google.com",
+      title: "Google Analytics"
+    },
+    {
+      id: 6,
+      logo: "/images/ptits_heros.png",
+      name: "Les P'tits Héros",
+      link: "https://lesptitsheros.fr/",
+      title: "Les P'tits Héros"
+    },
+    {
+      id: 7,
       logo: "/images/opera.png",
       name: "Opéra de Bordeaux",
       link: "https://www.opera-bordeaux.com",
       title: "Opéra de Bordeaux"
     },
     {
+      id: 8,
       logo: "/images/wset.png",
       name: "Wine Spirit Education Trust",
       link: "https://www.wsetglobal.com/fr/french-qualifications/level-3-award-in-wines-fr/",

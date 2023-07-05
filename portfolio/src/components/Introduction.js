@@ -18,9 +18,12 @@ const Introduction = () => {
                         ainsi que le besoin de m’instruire sur les informations techniques de nouveaux produits ou m’informer sur les nouvelles technologies de production.
                     </p>
 
-                    <p>Une conjoncture d'ambition et d'apprentissage, je me suis lancée dans l'ère numérique suite à une formation intensive de Développeur Web.</p>
+                    <p>Une conjoncture d'ambition et d'apprentissage, je me suis lancée dans l'ère numérique suite à une formation intensive de Développeur Web et une POEi 
+                        d'Ingénieur de production DevOps.</p>
                     <p>J’ai appris les langages principaux du développement web, mais c’est la découverte d’une facilité naturelle de comprendre et d’apprendre qui
                         a été pour moi une vraie révélation!
+                    </p>
+                    <p>Par la suite, j'ai compléter mes connaissances techniques avec le processus Continuous Integration and Continuous Delivery et la Containerization.
                     </p>
 
                 </div>
