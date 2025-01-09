@@ -1,8 +1,8 @@
 import React from "react";
 import Sidebar from "../containers/Sidebar";
 import { assos } from "../personal";
-import CVimage from "../assets/files/CV_Francesca_Burgevin_DevWeb.png";
-import CVfile from "../assets/files/CV_Francesca_Burgevin_DevWeb.pdf";
+import CVimage from "../assets/files/CV_Francesca_Burgevin_DevOps.png";
+import CVfile from "../assets/files/CV_Francesca_Burgevin_DevOps.pdf";
 import CVdownload from "../assets/icons/download.png";
 
 const CV = () => {

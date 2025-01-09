@@ -23,7 +23,7 @@ function GitHubFetch() {
                 url: `https://api.github.com/users/francescaburgevin/repos`,
                 auth: {
                     username: 'francescaburgevin',
-                    password: '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'
+                    password: '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'
                   },
                 })
             setRepos(response.data);
